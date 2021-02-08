@@ -10,7 +10,8 @@ module UART_Rx (input clk_Rx, Rx_in,
 					 output reg [7:0] data_out, 
 					 output reg UART_clk,	//for generation and checking UART_clk
 					 output reg wr,				// Readiness byte to write on memory
-					 output reg [7:0] wr_addr
+					 output reg [7:0] wr_addr,
+					 output reg re
 					 //output reg PC_start
 					 
 
@@ -21,7 +22,8 @@ parameter Fuart = 115200;						// recomended 230400, 115200, 57600, 38400, 33600
 parameter divider	= (Fclk / (Fuart *2)); 		
 
 initial wr <= 1'b1;
-initial wr_addr <= 8'd113;          ///////////////
+initial wr_addr <= 8'd113;          
+initial re <= 1'b0;
 					 
 initial data_out <= 8'b00000000;
 initial UART_clk <= 1'b0;	
@@ -54,6 +56,7 @@ initial g = 1'b0;
 		if (Rx_in == 1'b0) begin			// detector of the UART start bit
 			l <= 1'b1;							// set receive flag 
 			wr <= 1'b1;							// prohibition on write
+			re <= 1'b0;
 		end
 						
 		if (l == 1'b1) begin					// if and while the flag = 1, we write receive bits in bits in shift reg data_out
@@ -72,6 +75,7 @@ initial g = 1'b0;
 		if (wr_addr == 8'd0) begin			// quantity bytes = 113;
 			wr_addr <= 8'd113;
 			wr <= 1'b1;							// prohibition on write
+			re <= 1'b1;
 			
 		end
 		

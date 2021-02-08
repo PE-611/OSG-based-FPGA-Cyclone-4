@@ -37,11 +37,11 @@ always @(posedge clk_Delay) begin
 	end
 
 	if (dl_mlt == 4'd2) begin
-		divider <= 8'd100 - 1;
+		divider <= 8'd100;
 	end
 	
 	if (dl_mlt == 4'd3) begin
-		divider <= 20'd100000 - 1;
+		divider <= 20'd100000;
 	end
 		
 	
@@ -63,7 +63,7 @@ always @(posedge div_clk) begin
 			DL_out <= 1'b1;
 		end
 		
-		if (cnt1 >= (delay - 1)) begin
+		if (cnt1 >= delay) begin
 			DL_out <= 1'b0;
 			launch_PL <= 1'b1;
 			End_Flg <= 1'b1;

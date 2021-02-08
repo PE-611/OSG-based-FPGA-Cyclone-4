@@ -111,12 +111,12 @@ module RAM(//output reg [31:0] out,
 			  input clk_RAM,
 			  input [7:0] in,
 			  input [7:0] w_addr,
-			  input write
+			  input write,
+			  input read
 			  
 			  );
 
-reg read;
-initial read <= 1'b1;			  
+		  
 reg [7:0] DATA [112:0]; 
 
 initial pc_start <= 1'b0;

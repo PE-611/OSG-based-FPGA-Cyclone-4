@@ -36,6 +36,7 @@ wire END_FLG;
 wire DIN;
 wire [7:0] WR_ADDR;								// address for WRITE in RAM
 wire WRITE;											// Write flag readiness byte to write on memory 	
+wire READ;
 			 
 wire [16:0] PL1_DRT;								
 wire PL1_LAUNCH_DL1;
@@ -180,10 +181,10 @@ PLL pll_inst (.inclk0(clk), .c0(CLK));
 Start (.st_clk(clk), .st_button(button), .st_o(o), .end_flg(END_FLG), .PC_start(PC_START)); //.ready_to_start(READY_TO_START),
 
 
-UART_Rx (.clk_Rx(clk), .Rx_in(Rx), .data_out(d), .UART_clk(control_UART_clk), .wr(WRITE), .wr_addr(WR_ADDR));//, .PC_start(PC_START));
+UART_Rx (.clk_Rx(clk), .Rx_in(Rx), .data_out(d), .UART_clk(control_UART_clk), .wr(WRITE), .wr_addr(WR_ADDR), .re(READ));//, .PC_start(PC_START));
 
 
-RAM (.in(d_src), .clk_RAM(clk), .write(WRITE), .w_addr(WR_ADDR), .pc_start(PC_START), //.out(data_from_RAM), 
+RAM (.in(d_src), .clk_RAM(clk), .write(WRITE), .w_addr(WR_ADDR), .pc_start(PC_START), .read(READ), //.out(data_from_RAM), 
 
 .PL1_drt(PL1_DRT), .DL1_del(DL1_DEL), .ch1_type_start(CH1TS), .Mult_PL1(MULT_PL1), .Mult_DL1(MULT_DL1), 
 .PL2_drt(PL2_DRT), .DL2_del(DL2_DEL), .ch2_type_start(CH2TS), .Mult_PL2(MULT_PL2), .Mult_DL2(MULT_DL2),
