@@ -25,7 +25,7 @@ initial div_clk <= 1'b0;
 reg [34:0] divider;
 initial divider <= 1'b0;
 
-initial End_Flg <= 1'b0;      ////////////
+initial End_Flg <= 1'b0;      
 
 
 always @(posedge clk_Delay) begin
@@ -33,7 +33,7 @@ always @(posedge clk_Delay) begin
 	div_cnt <= div_cnt + 1'b1;
 	
 	if (dl_mlt == 4'd1) begin
-		divider <= 1'b1;
+		divider <= 1'b0;
 	end
 
 	if (dl_mlt == 4'd2) begin

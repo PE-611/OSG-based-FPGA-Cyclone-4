@@ -31,7 +31,7 @@ always @(posedge clk_Pulse) begin
 	div_cnt <= div_cnt + 1'b1;
 	
 	if (pl_mlt == 4'd1) begin
-		divider <= 1'b1;
+		divider <= 1'b0;
 	end
 
 	if (pl_mlt == 4'd2) begin

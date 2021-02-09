@@ -2,151 +2,155 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL12|div_clk'
-Slack : -10.525
-TNS   : -128.681
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL10|div_clk'
+Slack : -9.764
+TNS   : -104.346
 
 Type  : Slow 1200mV 85C Model Setup 'Delay:DL2|div_clk'
-Slack : -10.106
-TNS   : -84.501
-
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL6|div_clk'
-Slack : -8.651
-TNS   : -76.048
-
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL1|div_clk'
-Slack : -8.531
-TNS   : -93.400
-
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL14|div_clk'
-Slack : -8.303
-TNS   : -94.547
-
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL8|div_clk'
-Slack : -8.190
-TNS   : -84.542
-
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL5|div_clk'
-Slack : -8.089
-TNS   : -86.279
-
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL13|div_clk'
-Slack : -7.666
-TNS   : -126.775
-
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL16|div_clk'
-Slack : -7.659
-TNS   : -158.115
+Slack : -8.481
+TNS   : -90.032
 
 Type  : Slow 1200mV 85C Model Setup 'Delay:DL3|div_clk'
-Slack : -7.636
-TNS   : -84.559
+Slack : -8.438
+TNS   : -81.084
 
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL4|div_clk'
-Slack : -7.555
-TNS   : -85.350
-
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL9|div_clk'
-Slack : -7.504
-TNS   : -86.044
-
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL10|div_clk'
-Slack : -7.200
-TNS   : -106.858
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL1|div_clk'
+Slack : -8.132
+TNS   : -129.532
 
 Type  : Slow 1200mV 85C Model Setup 'Delay:DL15|div_clk'
-Slack : -7.153
-TNS   : -93.846
+Slack : -8.070
+TNS   : -129.880
 
-Type  : Slow 1200mV 85C Model Setup 'Delay:DL7|div_clk'
-Slack : -7.107
-TNS   : -79.985
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL14|div_clk'
+Slack : -8.015
+TNS   : -106.777
+
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL9|div_clk'
+Slack : -7.989
+TNS   : -88.883
 
 Type  : Slow 1200mV 85C Model Setup 'Delay:DL11|div_clk'
-Slack : -7.063
-TNS   : -103.934
+Slack : -7.981
+TNS   : -117.725
 
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL8|div_clk'
-Slack : -6.789
-TNS   : -191.616
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL4|div_clk'
+Slack : -7.772
+TNS   : -66.422
 
-Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -6.250
-TNS   : -5946.587
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL6|div_clk'
+Slack : -7.678
+TNS   : -83.895
 
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL5|div_clk'
-Slack : -6.063
-TNS   : -168.882
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL13|div_clk'
+Slack : -7.665
+TNS   : -91.141
 
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL9|div_clk'
-Slack : -6.050
-TNS   : -163.508
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL12|div_clk'
+Slack : -7.632
+TNS   : -104.139
 
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL6|div_clk'
-Slack : -5.809
-TNS   : -168.848
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL5|div_clk'
+Slack : -7.574
+TNS   : -82.881
 
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL7|div_clk'
-Slack : -5.767
-TNS   : -167.913
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL7|div_clk'
+Slack : -7.440
+TNS   : -73.133
 
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL2|div_clk'
-Slack : -5.371
-TNS   : -176.582
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL16|div_clk'
+Slack : -7.405
+TNS   : -117.868
 
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL1|div_clk'
-Slack : -5.356
-TNS   : -132.298
-
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL4|div_clk'
-Slack : -5.329
-TNS   : -137.820
-
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL3|div_clk'
-Slack : -4.988
-TNS   : -164.522
-
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL11|div_clk'
-Slack : -4.737
-TNS   : -121.160
-
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL15|div_clk'
-Slack : -4.715
-TNS   : -96.103
-
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL13|div_clk'
-Slack : -4.673
-TNS   : -107.266
-
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL10|div_clk'
-Slack : -4.391
-TNS   : -119.946
-
-Type  : Slow 1200mV 85C Model Setup 'Pulse:PL16|div_clk'
-Slack : -4.278
-TNS   : -107.037
+Type  : Slow 1200mV 85C Model Setup 'Delay:DL8|div_clk'
+Slack : -7.336
+TNS   : -73.659
 
 Type  : Slow 1200mV 85C Model Setup 'Pulse:PL14|div_clk'
-Slack : -4.259
-TNS   : -134.105
+Slack : -6.798
+TNS   : -159.353
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL9|div_clk'
+Slack : -6.760
+TNS   : -171.309
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL15|div_clk'
+Slack : -6.440
+TNS   : -169.632
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL3|div_clk'
+Slack : -6.329
+TNS   : -220.002
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL13|div_clk'
+Slack : -6.210
+TNS   : -186.837
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL11|div_clk'
+Slack : -6.204
+TNS   : -179.873
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL4|div_clk'
+Slack : -6.175
+TNS   : -177.626
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL16|div_clk'
+Slack : -6.172
+TNS   : -180.183
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL6|div_clk'
+Slack : -6.124
+TNS   : -182.926
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL5|div_clk'
+Slack : -6.122
+TNS   : -202.330
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -5.996
+TNS   : -5539.124
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL7|div_clk'
+Slack : -5.986
+TNS   : -199.154
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL2|div_clk'
+Slack : -5.761
+TNS   : -182.958
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL10|div_clk'
+Slack : -5.652
+TNS   : -163.942
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL8|div_clk'
+Slack : -5.604
+TNS   : -198.342
 
 Type  : Slow 1200mV 85C Model Setup 'Pulse:PL12|div_clk'
-Slack : -4.213
-TNS   : -112.773
+Slack : -5.399
+TNS   : -148.194
+
+Type  : Slow 1200mV 85C Model Setup 'Pulse:PL1|div_clk'
+Slack : -5.067
+TNS   : -155.429
 
 Type  : Slow 1200mV 85C Model Setup 'UART_Rx:comb_12|UART_clk'
-Slack : -3.033
-TNS   : -38.684
+Slack : -2.996
+TNS   : -38.919
 
 Type  : Slow 1200mV 85C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -2.442
-TNS   : -766.290
+Slack : -2.027
+TNS   : -657.027
 
 Type  : Slow 1200mV 85C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -0.714
-TNS   : -6.740
+Slack : -0.718
+TNS   : -7.310
 
-Type  : Slow 1200mV 85C Model Hold 'clk'
+Type  : Slow 1200mV 85C Model Hold 'Delay:DL13|div_clk'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Pulse:PL12|div_clk'
 Slack : 0.452
 TNS   : 0.000
 
@@ -155,15 +159,15 @@ Slack : 0.453
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'Pulse:PL11|div_clk'
-Slack : 0.454
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'Pulse:PL12|div_clk'
-Slack : 0.454
+Slack : 0.453
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'Pulse:PL13|div_clk'
-Slack : 0.454
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Pulse:PL1|div_clk'
+Slack : 0.453
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'Pulse:PL14|div_clk'
@@ -178,12 +182,12 @@ Type  : Slow 1200mV 85C Model Hold 'Pulse:PL16|div_clk'
 Slack : 0.454
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'Pulse:PL1|div_clk'
-Slack : 0.454
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.464
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'Pulse:PL4|div_clk'
-Slack : 0.461
+Type  : Slow 1200mV 85C Model Hold 'Pulse:PL8|div_clk'
+Slack : 0.481
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'Delay:DL10|div_clk'
@@ -195,10 +199,6 @@ Slack : 0.485
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'Delay:DL12|div_clk'
-Slack : 0.485
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'Delay:DL13|div_clk'
 Slack : 0.485
 TNS   : 0.000
 
@@ -254,6 +254,10 @@ Type  : Slow 1200mV 85C Model Hold 'Pulse:PL3|div_clk'
 Slack : 0.485
 TNS   : 0.000
 
+Type  : Slow 1200mV 85C Model Hold 'Pulse:PL4|div_clk'
+Slack : 0.485
+TNS   : 0.000
+
 Type  : Slow 1200mV 85C Model Hold 'Pulse:PL5|div_clk'
 Slack : 0.485
 TNS   : 0.000
@@ -266,10 +270,6 @@ Type  : Slow 1200mV 85C Model Hold 'Pulse:PL7|div_clk'
 Slack : 0.485
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'Pulse:PL8|div_clk'
-Slack : 0.485
-TNS   : 0.000
-
 Type  : Slow 1200mV 85C Model Hold 'Pulse:PL9|div_clk'
 Slack : 0.485
 TNS   : 0.000
@@ -279,7 +279,7 @@ Slack : 0.485
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'Delay:DL16|div_clk'
-Slack : 0.525
+Slack : 0.551
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Pulse:PL10|div_clk'
@@ -415,182 +415,186 @@ Slack : -1.487
 TNS   : -32.714
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 2.188
+Slack : 2.189
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
-Slack : 4.758
+Slack : 4.764
 TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL12|div_clk'
-Slack : -9.855
-TNS   : -116.800
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL2|div_clk'
-Slack : -9.383
-TNS   : -73.497
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL1|div_clk'
-Slack : -7.955
-TNS   : -80.278
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL6|div_clk'
-Slack : -7.951
-TNS   : -64.692
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL14|div_clk'
-Slack : -7.709
-TNS   : -81.262
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL8|div_clk'
-Slack : -7.647
-TNS   : -71.127
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL5|div_clk'
-Slack : -7.511
-TNS   : -74.816
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL3|div_clk'
-Slack : -7.056
-TNS   : -72.986
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL16|div_clk'
-Slack : -7.031
-TNS   : -144.607
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL4|div_clk'
-Slack : -7.001
-TNS   : -73.579
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL13|div_clk'
-Slack : -6.999
-TNS   : -116.093
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL9|div_clk'
-Slack : -6.944
-TNS   : -74.921
 
 Type  : Slow 1200mV 0C Model Setup 'Delay:DL10|div_clk'
-Slack : -6.642
-TNS   : -93.873
+Slack : -9.120
+TNS   : -90.371
+
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL2|div_clk'
+Slack : -7.807
+TNS   : -77.647
+
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL3|div_clk'
+Slack : -7.787
+TNS   : -68.463
+
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL9|div_clk'
+Slack : -7.433
+TNS   : -76.303
+
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL1|div_clk'
+Slack : -7.430
+TNS   : -116.634
+
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL14|div_clk'
+Slack : -7.418
+TNS   : -93.050
 
 Type  : Slow 1200mV 0C Model Setup 'Delay:DL15|div_clk'
-Slack : -6.635
-TNS   : -81.317
-
-Type  : Slow 1200mV 0C Model Setup 'Delay:DL7|div_clk'
-Slack : -6.590
-TNS   : -68.161
+Slack : -7.399
+TNS   : -117.918
 
 Type  : Slow 1200mV 0C Model Setup 'Delay:DL11|div_clk'
-Slack : -6.514
-TNS   : -92.785
+Slack : -7.382
+TNS   : -105.481
 
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL8|div_clk'
-Slack : -6.206
-TNS   : -175.410
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL4|div_clk'
+Slack : -7.224
+TNS   : -55.657
 
-Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -6.041
-TNS   : -5700.274
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL6|div_clk'
+Slack : -7.116
+TNS   : -71.551
 
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL9|div_clk'
-Slack : -5.518
-TNS   : -149.406
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL13|div_clk'
+Slack : -7.113
+TNS   : -78.103
 
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL5|div_clk'
-Slack : -5.483
-TNS   : -154.851
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL12|div_clk'
+Slack : -7.074
+TNS   : -90.591
 
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL6|div_clk'
-Slack : -5.339
-TNS   : -153.536
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL5|div_clk'
+Slack : -6.970
+TNS   : -70.330
 
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL7|div_clk'
-Slack : -5.232
-TNS   : -152.420
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL7|div_clk'
+Slack : -6.906
+TNS   : -61.030
 
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL1|div_clk'
-Slack : -4.960
-TNS   : -122.248
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL16|div_clk'
+Slack : -6.858
+TNS   : -106.778
 
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL4|div_clk'
-Slack : -4.891
-TNS   : -125.342
-
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL2|div_clk'
-Slack : -4.817
-TNS   : -161.578
-
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL3|div_clk'
-Slack : -4.438
-TNS   : -149.372
-
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL11|div_clk'
-Slack : -4.278
-TNS   : -111.022
-
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL13|div_clk'
-Slack : -4.197
-TNS   : -97.253
-
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL15|div_clk'
-Slack : -4.174
-TNS   : -83.973
-
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL10|div_clk'
-Slack : -3.861
-TNS   : -105.709
-
-Type  : Slow 1200mV 0C Model Setup 'Pulse:PL16|div_clk'
-Slack : -3.848
-TNS   : -96.861
+Type  : Slow 1200mV 0C Model Setup 'Delay:DL8|div_clk'
+Slack : -6.772
+TNS   : -61.600
 
 Type  : Slow 1200mV 0C Model Setup 'Pulse:PL14|div_clk'
-Slack : -3.813
-TNS   : -122.548
+Slack : -6.222
+TNS   : -148.701
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL9|div_clk'
+Slack : -6.213
+TNS   : -157.656
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL15|div_clk'
+Slack : -5.908
+TNS   : -158.972
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL3|div_clk'
+Slack : -5.725
+TNS   : -202.367
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL16|div_clk'
+Slack : -5.660
+TNS   : -168.231
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL11|div_clk'
+Slack : -5.646
+TNS   : -166.887
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -5.641
+TNS   : -5217.406
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL13|div_clk'
+Slack : -5.625
+TNS   : -173.938
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL6|div_clk'
+Slack : -5.576
+TNS   : -168.381
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL4|div_clk'
+Slack : -5.511
+TNS   : -163.504
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL5|div_clk'
+Slack : -5.493
+TNS   : -186.262
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL7|div_clk'
+Slack : -5.383
+TNS   : -183.525
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL2|div_clk'
+Slack : -5.225
+TNS   : -168.040
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL8|div_clk'
+Slack : -5.170
+TNS   : -182.656
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL10|div_clk'
+Slack : -5.159
+TNS   : -153.819
 
 Type  : Slow 1200mV 0C Model Setup 'Pulse:PL12|div_clk'
-Slack : -3.714
-TNS   : -101.652
+Slack : -4.935
+TNS   : -139.024
+
+Type  : Slow 1200mV 0C Model Setup 'Pulse:PL1|div_clk'
+Slack : -4.651
+TNS   : -144.565
 
 Type  : Slow 1200mV 0C Model Setup 'UART_Rx:comb_12|UART_clk'
-Slack : -2.838
-TNS   : -35.365
+Slack : -2.797
+TNS   : -35.562
 
 Type  : Slow 1200mV 0C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -2.037
-TNS   : -382.962
+Slack : -1.733
+TNS   : -240.284
 
 Type  : Slow 1200mV 0C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -0.800
-TNS   : -10.429
+Slack : -0.803
+TNS   : -10.942
 
-Type  : Slow 1200mV 0C Model Hold 'Pulse:PL4|div_clk'
-Slack : 0.370
+Type  : Slow 1200mV 0C Model Hold 'Delay:DL13|div_clk'
+Slack : 0.329
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'Pulse:PL6|div_clk'
-Slack : 0.389
+Type  : Slow 1200mV 0C Model Hold 'Pulse:PL8|div_clk'
+Slack : 0.394
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.400
+Type  : Slow 1200mV 0C Model Hold 'Pulse:PL10|div_clk'
+Slack : 0.401
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'Pulse:PL11|div_clk'
 Slack : 0.401
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'Pulse:PL10|div_clk'
-Slack : 0.402
+Type  : Slow 1200mV 0C Model Hold 'Pulse:PL13|div_clk'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Pulse:PL1|div_clk'
+Slack : 0.401
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'Pulse:PL12|div_clk'
 Slack : 0.402
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'Pulse:PL13|div_clk'
+Type  : Slow 1200mV 0C Model Hold 'Pulse:PL14|div_clk'
 Slack : 0.402
 TNS   : 0.000
 
@@ -602,16 +606,12 @@ Type  : Slow 1200mV 0C Model Hold 'Pulse:PL16|div_clk'
 Slack : 0.402
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'Pulse:PL14|div_clk'
+Type  : Slow 1200mV 0C Model Hold 'Pulse:PL4|div_clk'
 Slack : 0.403
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'Pulse:PL1|div_clk'
-Slack : 0.403
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'Pulse:PL3|div_clk'
-Slack : 0.408
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.415
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'Delay:DL10|div_clk'
@@ -623,10 +623,6 @@ Slack : 0.430
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'Delay:DL12|div_clk'
-Slack : 0.430
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'Delay:DL13|div_clk'
 Slack : 0.430
 TNS   : 0.000
 
@@ -678,15 +674,19 @@ Type  : Slow 1200mV 0C Model Hold 'Pulse:PL2|div_clk'
 Slack : 0.430
 TNS   : 0.000
 
+Type  : Slow 1200mV 0C Model Hold 'Pulse:PL3|div_clk'
+Slack : 0.430
+TNS   : 0.000
+
 Type  : Slow 1200mV 0C Model Hold 'Pulse:PL5|div_clk'
 Slack : 0.430
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'Pulse:PL7|div_clk'
+Type  : Slow 1200mV 0C Model Hold 'Pulse:PL6|div_clk'
 Slack : 0.430
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'Pulse:PL8|div_clk'
+Type  : Slow 1200mV 0C Model Hold 'Pulse:PL7|div_clk'
 Slack : 0.430
 TNS   : 0.000
 
@@ -699,7 +699,7 @@ Slack : 0.430
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'Delay:DL16|div_clk'
-Slack : 0.436
+Slack : 0.467
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Pulse:PL10|div_clk'
@@ -835,159 +835,159 @@ Slack : -1.487
 TNS   : -32.714
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 2.162
+Slack : 2.164
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : 4.723
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL12|div_clk'
-Slack : -3.982
-TNS   : -36.882
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL10|div_clk'
+Slack : -3.658
+TNS   : -27.147
 
 Type  : Fast 1200mV 0C Model Setup 'Delay:DL2|div_clk'
-Slack : -3.806
-TNS   : -18.194
-
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL6|div_clk'
-Slack : -3.281
-TNS   : -13.387
-
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL14|div_clk'
-Slack : -3.080
-TNS   : -22.082
-
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL1|div_clk'
-Slack : -3.071
-TNS   : -21.411
-
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL8|div_clk'
-Slack : -3.013
-TNS   : -18.590
-
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL5|div_clk'
-Slack : -2.902
-TNS   : -18.108
-
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL13|div_clk'
-Slack : -2.873
-TNS   : -37.996
-
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL16|div_clk'
-Slack : -2.825
-TNS   : -51.661
-
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL9|div_clk'
-Slack : -2.779
-TNS   : -17.741
+Slack : -3.249
+TNS   : -19.173
 
 Type  : Fast 1200mV 0C Model Setup 'Delay:DL3|div_clk'
-Slack : -2.738
-TNS   : -17.811
+Slack : -3.116
+TNS   : -15.929
 
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL4|div_clk'
-Slack : -2.731
-TNS   : -18.108
-
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL10|div_clk'
-Slack : -2.643
-TNS   : -27.879
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL1|div_clk'
+Slack : -3.039
+TNS   : -38.386
 
 Type  : Fast 1200mV 0C Model Setup 'Delay:DL15|div_clk'
-Slack : -2.572
-TNS   : -22.349
+Slack : -2.984
+TNS   : -39.773
 
-Type  : Fast 1200mV 0C Model Setup 'Delay:DL7|div_clk'
-Slack : -2.545
-TNS   : -15.175
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL8|div_clk'
-Slack : -2.535
-TNS   : -65.959
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL14|div_clk'
+Slack : -2.916
+TNS   : -27.851
 
 Type  : Fast 1200mV 0C Model Setup 'Delay:DL11|div_clk'
-Slack : -2.475
-TNS   : -28.819
+Slack : -2.909
+TNS   : -32.283
 
-Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -2.267
-TNS   : -1739.346
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL9|div_clk'
+Slack : -2.873
+TNS   : -20.719
+
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL13|div_clk'
+Slack : -2.827
+TNS   : -23.390
+
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL4|div_clk'
+Slack : -2.819
+TNS   : -10.366
+
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL5|div_clk'
+Slack : -2.743
+TNS   : -16.998
+
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL12|div_clk'
+Slack : -2.728
+TNS   : -26.589
+
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL6|div_clk'
+Slack : -2.722
+TNS   : -16.949
+
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL7|div_clk'
+Slack : -2.713
+TNS   : -13.009
+
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL8|div_clk'
+Slack : -2.673
+TNS   : -13.909
+
+Type  : Fast 1200mV 0C Model Setup 'Delay:DL16|div_clk'
+Slack : -2.628
+TNS   : -33.105
 
 Type  : Fast 1200mV 0C Model Setup 'Pulse:PL9|div_clk'
-Slack : -2.211
-TNS   : -54.296
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL6|div_clk'
-Slack : -2.178
-TNS   : -57.413
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL5|div_clk'
-Slack : -2.141
-TNS   : -57.352
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL7|div_clk'
-Slack : -2.098
-TNS   : -59.154
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL1|div_clk'
-Slack : -1.862
-TNS   : -37.867
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL2|div_clk'
-Slack : -1.818
-TNS   : -57.719
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL4|div_clk'
-Slack : -1.752
-TNS   : -42.113
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL11|div_clk'
-Slack : -1.649
-TNS   : -31.952
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL3|div_clk'
-Slack : -1.615
-TNS   : -50.949
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL13|div_clk'
-Slack : -1.543
-TNS   : -26.945
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL15|div_clk'
-Slack : -1.500
-TNS   : -22.998
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL16|div_clk'
-Slack : -1.465
-TNS   : -26.488
-
-Type  : Fast 1200mV 0C Model Setup 'Pulse:PL10|div_clk'
-Slack : -1.319
-TNS   : -34.181
+Slack : -2.569
+TNS   : -55.459
 
 Type  : Fast 1200mV 0C Model Setup 'Pulse:PL14|div_clk'
-Slack : -1.293
-TNS   : -41.655
+Slack : -2.523
+TNS   : -51.012
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL15|div_clk'
+Slack : -2.300
+TNS   : -55.202
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL11|div_clk'
+Slack : -2.237
+TNS   : -59.596
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL16|div_clk'
+Slack : -2.236
+TNS   : -60.004
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL4|div_clk'
+Slack : -2.236
+TNS   : -57.023
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL13|div_clk'
+Slack : -2.233
+TNS   : -64.548
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL5|div_clk'
+Slack : -2.186
+TNS   : -68.735
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL3|div_clk'
+Slack : -2.176
+TNS   : -76.126
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL6|div_clk'
+Slack : -2.158
+TNS   : -60.012
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -2.102
+TNS   : -1572.884
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL7|div_clk'
+Slack : -2.096
+TNS   : -67.817
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL2|div_clk'
+Slack : -2.075
+TNS   : -61.331
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL10|div_clk'
+Slack : -1.993
+TNS   : -49.920
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL8|div_clk'
+Slack : -1.903
+TNS   : -66.515
 
 Type  : Fast 1200mV 0C Model Setup 'Pulse:PL12|div_clk'
-Slack : -1.232
-TNS   : -29.980
+Slack : -1.834
+TNS   : -42.608
+
+Type  : Fast 1200mV 0C Model Setup 'Pulse:PL1|div_clk'
+Slack : -1.708
+TNS   : -45.661
 
 Type  : Fast 1200mV 0C Model Setup 'UART_Rx:comb_12|UART_clk'
-Slack : -0.768
-TNS   : -7.584
+Slack : -0.761
+TNS   : -6.270
 
 Type  : Fast 1200mV 0C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.036
-TNS   : 0.000
+Slack : -0.476
+TNS   : -0.476
 
 Type  : Fast 1200mV 0C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
 Slack : -0.258
-TNS   : -1.389
+TNS   : -1.654
 
-Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : 0.147
+Type  : Fast 1200mV 0C Model Hold 'Delay:DL13|div_clk'
+Slack : 0.186
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'Pulse:PL11|div_clk'
@@ -1022,6 +1022,10 @@ Type  : Fast 1200mV 0C Model Hold 'Pulse:PL16|div_clk'
 Slack : 0.187
 TNS   : 0.000
 
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.193
+TNS   : 0.000
+
 Type  : Fast 1200mV 0C Model Hold 'Delay:DL10|div_clk'
 Slack : 0.201
 TNS   : 0.000
@@ -1031,10 +1035,6 @@ Slack : 0.201
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'Delay:DL12|div_clk'
-Slack : 0.201
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'Delay:DL13|div_clk'
 Slack : 0.201
 TNS   : 0.000
 
@@ -1119,7 +1119,7 @@ Slack : 0.201
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'Delay:DL16|div_clk'
-Slack : 0.233
+Slack : 0.246
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Pulse:PL10|div_clk'
@@ -1255,11 +1255,11 @@ Slack : -1.000
 TNS   : -22.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 2.266
+Slack : 2.267
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
-Slack : 4.406
+Slack : 4.407
 TNS   : 0.000
 
 ------------------------------------------------------------

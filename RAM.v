@@ -227,7 +227,7 @@ always @(posedge clk_RAM) begin
 		   ch15_type_start <= DATA[8];
 			
 			PL16_drt  <= {DATA[6], DATA[7]};
-			Mult_PL15 <= DATA[5];
+			Mult_PL16 <= DATA[5];
 			DL16_del  <= {DATA[3], DATA[4]};
 			Mult_DL16 <= DATA[2];
 		   ch16_type_start <= DATA[1];

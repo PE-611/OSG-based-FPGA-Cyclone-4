@@ -19,7 +19,7 @@ module UART_Rx (input clk_Rx, Rx_in,
 					 
 parameter Fclk = 100 * 1000000;			// Input clk [Hz]
 parameter Fuart = 115200;						// recomended 230400, 115200, 57600, 38400, 33600, 28800, 19200, 14400, 9600, 1200.   		 	
-parameter divider	= (Fclk / (Fuart *2)); 		
+parameter divider	= (Fclk / ((Fuart *2) - 1)); 		
 
 initial wr <= 1'b1;
 initial wr_addr <= 8'd113;          

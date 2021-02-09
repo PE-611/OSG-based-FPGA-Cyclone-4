@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Cyclone_OSG
-Mon Feb 08 15:37:57 2021
+Tue Feb 09 15:16:23 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -15,52 +15,51 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis IP Cores Summary
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Inverted Register Statistics
- 13. Multiplexer Restructuring Statistics (Restructuring Performed)
- 14. Parameter Settings for User Entity Instance: PLL:pll_inst|altpll:altpll_component
- 15. Parameter Settings for User Entity Instance: UART_Rx:comb_12
- 16. altpll Parameter Settings by Entity Instance
- 17. Port Connectivity Checks: "Delay:DL16"
- 18. Port Connectivity Checks: "Pulse:PL16"
- 19. Port Connectivity Checks: "Delay:DL15"
- 20. Port Connectivity Checks: "Pulse:PL15"
- 21. Port Connectivity Checks: "Delay:DL14"
- 22. Port Connectivity Checks: "Pulse:PL14"
- 23. Port Connectivity Checks: "Delay:DL13"
- 24. Port Connectivity Checks: "Pulse:PL13"
- 25. Port Connectivity Checks: "Delay:DL12"
- 26. Port Connectivity Checks: "Pulse:PL12"
- 27. Port Connectivity Checks: "Delay:DL11"
- 28. Port Connectivity Checks: "Pulse:PL11"
- 29. Port Connectivity Checks: "Delay:DL10"
- 30. Port Connectivity Checks: "Pulse:PL10"
- 31. Port Connectivity Checks: "Delay:DL9"
- 32. Port Connectivity Checks: "Pulse:PL9"
- 33. Port Connectivity Checks: "Delay:DL8"
- 34. Port Connectivity Checks: "Pulse:PL8"
- 35. Port Connectivity Checks: "Delay:DL7"
- 36. Port Connectivity Checks: "Pulse:PL7"
- 37. Port Connectivity Checks: "Delay:DL6"
- 38. Port Connectivity Checks: "Pulse:PL6"
- 39. Port Connectivity Checks: "Delay:DL5"
- 40. Port Connectivity Checks: "Pulse:PL5"
- 41. Port Connectivity Checks: "Delay:DL4"
- 42. Port Connectivity Checks: "Pulse:PL4"
- 43. Port Connectivity Checks: "Delay:DL3"
- 44. Port Connectivity Checks: "Pulse:PL3"
- 45. Port Connectivity Checks: "Delay:DL2"
- 46. Port Connectivity Checks: "Pulse:PL2"
- 47. Port Connectivity Checks: "Delay:DL1"
- 48. Port Connectivity Checks: "Pulse:PL1"
- 49. Port Connectivity Checks: "RAM:comb_13"
- 50. Port Connectivity Checks: "UART_Rx:comb_12"
- 51. Port Connectivity Checks: "PLL:pll_inst"
- 52. Post-Synthesis Netlist Statistics for Top Partition
- 53. Elapsed Time Per Partition
- 54. Analysis & Synthesis Messages
- 55. Analysis & Synthesis Suppressed Messages
+ 10. General Register Statistics
+ 11. Inverted Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: PLL:pll_inst|altpll:altpll_component
+ 14. Parameter Settings for User Entity Instance: UART_Rx:comb_12
+ 15. altpll Parameter Settings by Entity Instance
+ 16. Port Connectivity Checks: "Delay:DL16"
+ 17. Port Connectivity Checks: "Pulse:PL16"
+ 18. Port Connectivity Checks: "Delay:DL15"
+ 19. Port Connectivity Checks: "Pulse:PL15"
+ 20. Port Connectivity Checks: "Delay:DL14"
+ 21. Port Connectivity Checks: "Pulse:PL14"
+ 22. Port Connectivity Checks: "Delay:DL13"
+ 23. Port Connectivity Checks: "Pulse:PL13"
+ 24. Port Connectivity Checks: "Delay:DL12"
+ 25. Port Connectivity Checks: "Pulse:PL12"
+ 26. Port Connectivity Checks: "Delay:DL11"
+ 27. Port Connectivity Checks: "Pulse:PL11"
+ 28. Port Connectivity Checks: "Delay:DL10"
+ 29. Port Connectivity Checks: "Pulse:PL10"
+ 30. Port Connectivity Checks: "Delay:DL9"
+ 31. Port Connectivity Checks: "Pulse:PL9"
+ 32. Port Connectivity Checks: "Delay:DL8"
+ 33. Port Connectivity Checks: "Pulse:PL8"
+ 34. Port Connectivity Checks: "Delay:DL7"
+ 35. Port Connectivity Checks: "Pulse:PL7"
+ 36. Port Connectivity Checks: "Delay:DL6"
+ 37. Port Connectivity Checks: "Pulse:PL6"
+ 38. Port Connectivity Checks: "Delay:DL5"
+ 39. Port Connectivity Checks: "Pulse:PL5"
+ 40. Port Connectivity Checks: "Delay:DL4"
+ 41. Port Connectivity Checks: "Pulse:PL4"
+ 42. Port Connectivity Checks: "Delay:DL3"
+ 43. Port Connectivity Checks: "Pulse:PL3"
+ 44. Port Connectivity Checks: "Delay:DL2"
+ 45. Port Connectivity Checks: "Pulse:PL2"
+ 46. Port Connectivity Checks: "Delay:DL1"
+ 47. Port Connectivity Checks: "Pulse:PL1"
+ 48. Port Connectivity Checks: "RAM:comb_13"
+ 49. Port Connectivity Checks: "UART_Rx:comb_12"
+ 50. Port Connectivity Checks: "PLL:pll_inst"
+ 51. Post-Synthesis Netlist Statistics for Top Partition
+ 52. Elapsed Time Per Partition
+ 53. Analysis & Synthesis Messages
+ 54. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -86,15 +85,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Feb 08 15:37:56 2021       ;
+; Analysis & Synthesis Status        ; Successful - Tue Feb 09 15:16:23 2021       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Cyclone_OSG                                 ;
 ; Top-level Entity Name              ; main                                        ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 6,164                                       ;
-;     Total combinational functions  ; 5,409                                       ;
-;     Dedicated logic registers      ; 3,957                                       ;
-; Total registers                    ; 3957                                        ;
+; Total logic elements               ; 6,199                                       ;
+;     Total combinational functions  ; 5,455                                       ;
+;     Dedicated logic registers      ; 3,974                                       ;
+; Total registers                    ; 3974                                        ;
 ; Total pins                         ; 20                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -203,8 +202,8 @@ refer to the applicable agreement for further details.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.3%      ;
-;     Processor 3            ;   0.3%      ;
-;     Processor 4            ;   0.3%      ;
+;     Processor 3            ;   0.2%      ;
+;     Processor 4            ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -235,20 +234,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 6,164     ;
+; Estimated Total logic elements              ; 6,199     ;
 ;                                             ;           ;
-; Total combinational functions               ; 5409      ;
+; Total combinational functions               ; 5455      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 1343      ;
-;     -- 3 input functions                    ; 1363      ;
-;     -- <=2 input functions                  ; 2703      ;
+;     -- 4 input functions                    ; 1262      ;
+;     -- 3 input functions                    ; 1471      ;
+;     -- <=2 input functions                  ; 2722      ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 2700      ;
-;     -- arithmetic mode                      ; 2709      ;
+;     -- normal mode                          ; 2712      ;
+;     -- arithmetic mode                      ; 2743      ;
 ;                                             ;           ;
-; Total registers                             ; 3957      ;
-;     -- Dedicated logic registers            ; 3957      ;
+; Total registers                             ; 3974      ;
+;     -- Dedicated logic registers            ; 3974      ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 20        ;
@@ -259,9 +258,9 @@ refer to the applicable agreement for further details.
 ;     -- PLLs                                 ; 1         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 1527      ;
-; Total fan-out                               ; 26353     ;
-; Average fan-out                             ; 2.80      ;
+; Maximum fan-out                             ; 1499      ;
+; Total fan-out                               ; 26468     ;
+; Average fan-out                             ; 2.79      ;
 +---------------------------------------------+-----------+
 
 
@@ -270,46 +269,46 @@ refer to the applicable agreement for further details.
 +--------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node           ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                  ; Entity Name ; Library Name ;
 +--------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------+-------------+--------------+
-; |main                                ; 5409 (0)            ; 3957 (0)                  ; 0           ; 0            ; 0       ; 0         ; 20   ; 0            ; |main                                                                ; main        ; work         ;
+; |main                                ; 5455 (0)            ; 3974 (0)                  ; 0           ; 0            ; 0       ; 0         ; 20   ; 0            ; |main                                                                ; main        ; work         ;
 ;    |DLST:ST1|                        ; 47 (47)             ; 37 (37)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|DLST:ST1                                                       ; DLST        ; work         ;
-;    |Delay:DL10|                      ; 155 (155)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL10                                                     ; Delay       ; work         ;
-;    |Delay:DL11|                      ; 153 (153)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL11                                                     ; Delay       ; work         ;
-;    |Delay:DL12|                      ; 147 (147)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL12                                                     ; Delay       ; work         ;
-;    |Delay:DL13|                      ; 153 (153)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL13                                                     ; Delay       ; work         ;
-;    |Delay:DL14|                      ; 155 (155)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL14                                                     ; Delay       ; work         ;
-;    |Delay:DL15|                      ; 155 (155)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL15                                                     ; Delay       ; work         ;
-;    |Delay:DL16|                      ; 158 (158)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL16                                                     ; Delay       ; work         ;
-;    |Delay:DL1|                       ; 155 (155)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL1                                                      ; Delay       ; work         ;
-;    |Delay:DL2|                       ; 147 (147)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL2                                                      ; Delay       ; work         ;
-;    |Delay:DL3|                       ; 155 (155)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL3                                                      ; Delay       ; work         ;
-;    |Delay:DL4|                       ; 153 (153)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL4                                                      ; Delay       ; work         ;
-;    |Delay:DL5|                       ; 155 (155)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL5                                                      ; Delay       ; work         ;
-;    |Delay:DL6|                       ; 155 (155)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL6                                                      ; Delay       ; work         ;
-;    |Delay:DL7|                       ; 155 (155)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL7                                                      ; Delay       ; work         ;
-;    |Delay:DL8|                       ; 155 (155)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL8                                                      ; Delay       ; work         ;
-;    |Delay:DL9|                       ; 153 (153)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL9                                                      ; Delay       ; work         ;
+;    |Delay:DL10|                      ; 150 (150)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL10                                                     ; Delay       ; work         ;
+;    |Delay:DL11|                      ; 155 (155)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL11                                                     ; Delay       ; work         ;
+;    |Delay:DL12|                      ; 155 (155)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL12                                                     ; Delay       ; work         ;
+;    |Delay:DL13|                      ; 155 (155)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL13                                                     ; Delay       ; work         ;
+;    |Delay:DL14|                      ; 153 (153)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL14                                                     ; Delay       ; work         ;
+;    |Delay:DL15|                      ; 155 (155)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL15                                                     ; Delay       ; work         ;
+;    |Delay:DL16|                      ; 158 (158)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL16                                                     ; Delay       ; work         ;
+;    |Delay:DL1|                       ; 153 (153)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL1                                                      ; Delay       ; work         ;
+;    |Delay:DL2|                       ; 153 (153)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL2                                                      ; Delay       ; work         ;
+;    |Delay:DL3|                       ; 155 (155)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL3                                                      ; Delay       ; work         ;
+;    |Delay:DL4|                       ; 156 (156)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL4                                                      ; Delay       ; work         ;
+;    |Delay:DL5|                       ; 153 (153)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL5                                                      ; Delay       ; work         ;
+;    |Delay:DL6|                       ; 153 (153)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL6                                                      ; Delay       ; work         ;
+;    |Delay:DL7|                       ; 155 (155)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL7                                                      ; Delay       ; work         ;
+;    |Delay:DL8|                       ; 155 (155)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL8                                                      ; Delay       ; work         ;
+;    |Delay:DL9|                       ; 155 (155)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Delay:DL9                                                      ; Delay       ; work         ;
 ;    |PLL:pll_inst|                    ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|PLL:pll_inst                                                   ; PLL         ; work         ;
 ;       |altpll:altpll_component|      ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|PLL:pll_inst|altpll:altpll_component                           ; altpll      ; work         ;
 ;          |PLL_altpll:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|PLL:pll_inst|altpll:altpll_component|PLL_altpll:auto_generated ; PLL_altpll  ; work         ;
-;    |Pulse:PL10|                      ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL10                                                     ; Pulse       ; work         ;
-;    |Pulse:PL11|                      ; 128 (128)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL11                                                     ; Pulse       ; work         ;
-;    |Pulse:PL12|                      ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL12                                                     ; Pulse       ; work         ;
-;    |Pulse:PL13|                      ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL13                                                     ; Pulse       ; work         ;
-;    |Pulse:PL14|                      ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL14                                                     ; Pulse       ; work         ;
-;    |Pulse:PL15|                      ; 128 (128)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL15                                                     ; Pulse       ; work         ;
-;    |Pulse:PL16|                      ; 68 (68)             ; 38 (38)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL16                                                     ; Pulse       ; work         ;
-;    |Pulse:PL1|                       ; 125 (125)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL1                                                      ; Pulse       ; work         ;
-;    |Pulse:PL2|                       ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL2                                                      ; Pulse       ; work         ;
-;    |Pulse:PL3|                       ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL3                                                      ; Pulse       ; work         ;
-;    |Pulse:PL4|                       ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL4                                                      ; Pulse       ; work         ;
-;    |Pulse:PL5|                       ; 128 (128)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL5                                                      ; Pulse       ; work         ;
-;    |Pulse:PL6|                       ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL6                                                      ; Pulse       ; work         ;
-;    |Pulse:PL7|                       ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL7                                                      ; Pulse       ; work         ;
-;    |Pulse:PL8|                       ; 128 (128)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL8                                                      ; Pulse       ; work         ;
-;    |Pulse:PL9|                       ; 127 (127)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL9                                                      ; Pulse       ; work         ;
-;    |RAM:comb_13|                     ; 872 (872)           ; 1471 (1471)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|RAM:comb_13                                                    ; RAM         ; work         ;
+;    |Pulse:PL10|                      ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL10                                                     ; Pulse       ; work         ;
+;    |Pulse:PL11|                      ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL11                                                     ; Pulse       ; work         ;
+;    |Pulse:PL12|                      ; 126 (126)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL12                                                     ; Pulse       ; work         ;
+;    |Pulse:PL13|                      ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL13                                                     ; Pulse       ; work         ;
+;    |Pulse:PL14|                      ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL14                                                     ; Pulse       ; work         ;
+;    |Pulse:PL15|                      ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL15                                                     ; Pulse       ; work         ;
+;    |Pulse:PL16|                      ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL16                                                     ; Pulse       ; work         ;
+;    |Pulse:PL1|                       ; 122 (122)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL1                                                      ; Pulse       ; work         ;
+;    |Pulse:PL2|                       ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL2                                                      ; Pulse       ; work         ;
+;    |Pulse:PL3|                       ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL3                                                      ; Pulse       ; work         ;
+;    |Pulse:PL4|                       ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL4                                                      ; Pulse       ; work         ;
+;    |Pulse:PL5|                       ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL5                                                      ; Pulse       ; work         ;
+;    |Pulse:PL6|                       ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL6                                                      ; Pulse       ; work         ;
+;    |Pulse:PL7|                       ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL7                                                      ; Pulse       ; work         ;
+;    |Pulse:PL8|                       ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL8                                                      ; Pulse       ; work         ;
+;    |Pulse:PL9|                       ; 125 (125)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pulse:PL9                                                      ; Pulse       ; work         ;
+;    |RAM:comb_13|                     ; 886 (886)           ; 1481 (1481)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|RAM:comb_13                                                    ; RAM         ; work         ;
 ;    |Start:comb_11|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Start:comb_11                                                  ; Start       ; work         ;
-;    |UART_Rx:comb_12|                 ; 55 (55)             ; 39 (39)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|UART_Rx:comb_12                                                ; UART_Rx     ; work         ;
+;    |UART_Rx:comb_12|                 ; 54 (54)             ; 39 (39)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|UART_Rx:comb_12                                                ; UART_Rx     ; work         ;
 +--------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -363,372 +362,426 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Delay:DL16|divider[16]                                 ; Merged with Delay:DL16|divider[2]      ;
 ; Delay:DL16|divider[7]                                  ; Merged with Delay:DL16|divider[3]      ;
 ; Delay:DL16|divider[10]                                 ; Merged with Delay:DL16|divider[4]      ;
-; Delay:DL16|divider[18,20]                              ; Merged with Delay:DL16|divider[8]      ;
+; Delay:DL16|divider[20,22]                              ; Merged with Delay:DL16|divider[8]      ;
 ; Delay:DL16|divider[15]                                 ; Merged with Delay:DL16|divider[9]      ;
 ; Delay:DL16|divider[19,23]                              ; Merged with Delay:DL16|divider[11]     ;
-; Delay:DL16|divider[26,28]                              ; Merged with Delay:DL16|divider[12]     ;
-; Delay:DL16|divider[14,29,30,32]                        ; Merged with Delay:DL16|divider[13]     ;
+; Delay:DL16|divider[24,26]                              ; Merged with Delay:DL16|divider[12]     ;
+; Delay:DL16|divider[29,32]                              ; Merged with Delay:DL16|divider[13]     ;
+; Delay:DL16|divider[28,30]                              ; Merged with Delay:DL16|divider[14]     ;
 ; Delay:DL16|divider[21,33]                              ; Merged with Delay:DL16|divider[17]     ;
-; Delay:DL16|divider[24]                                 ; Merged with Delay:DL16|divider[22]     ;
-; Delay:DL16|divider[31,34]                              ; Merged with Delay:DL16|divider[27]     ;
-; Pulse:PL16|divider[1..34]                              ; Merged with Pulse:PL16|divider[0]      ;
+; Delay:DL16|divider[34]                                 ; Merged with Delay:DL16|divider[18]     ;
+; Delay:DL16|divider[31]                                 ; Merged with Delay:DL16|divider[27]     ;
+; Pulse:PL16|divider[14,22,30]                           ; Merged with Pulse:PL16|divider[0]      ;
+; Pulse:PL16|divider[3,33]                               ; Merged with Pulse:PL16|divider[1]      ;
+; Pulse:PL16|divider[6]                                  ; Merged with Pulse:PL16|divider[2]      ;
+; Pulse:PL16|divider[8,12]                               ; Merged with Pulse:PL16|divider[4]      ;
+; Pulse:PL16|divider[9]                                  ; Merged with Pulse:PL16|divider[7]      ;
+; Pulse:PL16|divider[13,17]                              ; Merged with Pulse:PL16|divider[11]     ;
+; Pulse:PL16|divider[34]                                 ; Merged with Pulse:PL16|divider[18]     ;
+; Pulse:PL16|divider[21,23,25]                           ; Merged with Pulse:PL16|divider[19]     ;
+; Pulse:PL16|divider[24,28,32]                           ; Merged with Pulse:PL16|divider[20]     ;
+; Pulse:PL16|divider[27,29,31]                           ; Merged with Pulse:PL16|divider[26]     ;
 ; Delay:DL15|divider[4,10]                               ; Merged with Delay:DL15|divider[2]      ;
-; Delay:DL15|divider[7,15]                               ; Merged with Delay:DL15|divider[3]      ;
+; Delay:DL15|divider[15]                                 ; Merged with Delay:DL15|divider[7]      ;
 ; Delay:DL15|divider[12,14,18,20]                        ; Merged with Delay:DL15|divider[8]      ;
-; Delay:DL15|divider[19,23,27,31]                        ; Merged with Delay:DL15|divider[11]     ;
+; Delay:DL15|divider[19,27]                              ; Merged with Delay:DL15|divider[11]     ;
 ; Delay:DL15|divider[17,21,25,29,33]                     ; Merged with Delay:DL15|divider[13]     ;
 ; Delay:DL15|divider[24,26,28,30,32,34]                  ; Merged with Delay:DL15|divider[22]     ;
+; Delay:DL15|divider[31]                                 ; Merged with Delay:DL15|divider[23]     ;
+; Pulse:PL15|divider[8,24,32,34]                         ; Merged with Pulse:PL15|divider[0]      ;
 ; Pulse:PL15|divider[3,11,13]                            ; Merged with Pulse:PL15|divider[1]      ;
 ; Pulse:PL15|divider[6]                                  ; Merged with Pulse:PL15|divider[2]      ;
-; Pulse:PL15|divider[8,24,32,34]                         ; Merged with Pulse:PL15|divider[4]      ;
+; Pulse:PL15|divider[12,28]                              ; Merged with Pulse:PL15|divider[4]      ;
 ; Pulse:PL15|divider[9,15]                               ; Merged with Pulse:PL15|divider[7]      ;
-; Pulse:PL15|divider[14,22,26,30,33]                     ; Merged with Pulse:PL15|divider[12]     ;
-; Pulse:PL15|divider[18,19,21,23,25,27,29]               ; Merged with Pulse:PL15|divider[17]     ;
+; Pulse:PL15|divider[18,22,26,30,33]                     ; Merged with Pulse:PL15|divider[14]     ;
+; Pulse:PL15|divider[19,21,23,25,27,29]                  ; Merged with Pulse:PL15|divider[17]     ;
 ; Pulse:PL15|divider[31]                                 ; Merged with Pulse:PL15|divider[20]     ;
 ; Delay:DL14|divider[4,10,16]                            ; Merged with Delay:DL14|divider[2]      ;
 ; Delay:DL14|divider[7,15]                               ; Merged with Delay:DL14|divider[3]      ;
 ; Delay:DL14|divider[12,14,18,20,22,24,26,28,30,32]      ; Merged with Delay:DL14|divider[8]      ;
 ; Delay:DL14|divider[19,23,27,31]                        ; Merged with Delay:DL14|divider[11]     ;
-; Delay:DL14|divider[17,25,33]                           ; Merged with Delay:DL14|divider[13]     ;
-; Delay:DL14|divider[29]                                 ; Merged with Delay:DL14|divider[21]     ;
+; Delay:DL14|divider[21,29]                              ; Merged with Delay:DL14|divider[13]     ;
+; Delay:DL14|divider[25,33]                              ; Merged with Delay:DL14|divider[17]     ;
+; Pulse:PL14|divider[4,8,12,20,24,28,32]                 ; Merged with Pulse:PL14|divider[0]      ;
 ; Pulse:PL14|divider[3,11,13,17,19,21,23,25]             ; Merged with Pulse:PL14|divider[1]      ;
 ; Pulse:PL14|divider[6]                                  ; Merged with Pulse:PL14|divider[2]      ;
-; Pulse:PL14|divider[8,12,20,24,28,32]                   ; Merged with Pulse:PL14|divider[4]      ;
 ; Pulse:PL14|divider[9,15]                               ; Merged with Pulse:PL14|divider[7]      ;
-; Pulse:PL14|divider[18,22,26,30]                        ; Merged with Pulse:PL14|divider[14]     ;
+; Pulse:PL14|divider[22,30]                              ; Merged with Pulse:PL14|divider[14]     ;
+; Pulse:PL14|divider[26,34]                              ; Merged with Pulse:PL14|divider[18]     ;
 ; Pulse:PL14|divider[29,31,33]                           ; Merged with Pulse:PL14|divider[27]     ;
 ; Delay:DL13|divider[4,10,16]                            ; Merged with Delay:DL13|divider[2]      ;
-; Delay:DL13|divider[7,15]                               ; Merged with Delay:DL13|divider[3]      ;
+; Delay:DL13|divider[15]                                 ; Merged with Delay:DL13|divider[7]      ;
 ; Delay:DL13|divider[12,14,18,20,22,24,26,28,30,32]      ; Merged with Delay:DL13|divider[8]      ;
-; Delay:DL13|divider[19]                                 ; Merged with Delay:DL13|divider[11]     ;
-; Delay:DL13|divider[17,21,23,25,27,29,31]               ; Merged with Delay:DL13|divider[13]     ;
-; Pulse:PL13|divider[3,4,11,13,17,19,21,23,25]           ; Merged with Pulse:PL13|divider[1]      ;
+; Delay:DL13|divider[19,27]                              ; Merged with Delay:DL13|divider[11]     ;
+; Delay:DL13|divider[17,21,25,29,33]                     ; Merged with Delay:DL13|divider[13]     ;
+; Delay:DL13|divider[31]                                 ; Merged with Delay:DL13|divider[23]     ;
+; Pulse:PL13|divider[12,20,28,34]                        ; Merged with Pulse:PL13|divider[0]      ;
+; Pulse:PL13|divider[3,11,13,17,19,21,23,25]             ; Merged with Pulse:PL13|divider[1]      ;
+; Pulse:PL13|divider[14,18,22,26,30,33]                  ; Merged with Pulse:PL13|divider[4]      ;
 ; Pulse:PL13|divider[9,15]                               ; Merged with Pulse:PL13|divider[7]      ;
 ; Pulse:PL13|divider[27,29,31]                           ; Merged with Pulse:PL13|divider[8]      ;
-; Pulse:PL13|divider[20,28,34]                           ; Merged with Pulse:PL13|divider[12]     ;
-; Pulse:PL13|divider[18,22,26,30,33]                     ; Merged with Pulse:PL13|divider[14]     ;
 ; Pulse:PL13|divider[32]                                 ; Merged with Pulse:PL13|divider[24]     ;
 ; Delay:DL12|divider[4,10,16]                            ; Merged with Delay:DL12|divider[2]      ;
 ; Delay:DL12|divider[7,15]                               ; Merged with Delay:DL12|divider[3]      ;
 ; Delay:DL12|divider[12,14,18,20,22,24,26,28,30,32,34]   ; Merged with Delay:DL12|divider[8]      ;
 ; Delay:DL12|divider[19,23,27,31]                        ; Merged with Delay:DL12|divider[11]     ;
-; Delay:DL12|divider[17,21,25,29,33]                     ; Merged with Delay:DL12|divider[13]     ;
+; Delay:DL12|divider[21,29]                              ; Merged with Delay:DL12|divider[13]     ;
+; Delay:DL12|divider[25,33]                              ; Merged with Delay:DL12|divider[17]     ;
+; Pulse:PL12|divider[4,8,12,20,24,28,32]                 ; Merged with Pulse:PL12|divider[0]      ;
 ; Pulse:PL12|divider[3,11,13,17,19,21,23,25,27,29,31,33] ; Merged with Pulse:PL12|divider[1]      ;
-; Pulse:PL12|divider[6]                                  ; Merged with Pulse:PL12|divider[2]      ;
-; Pulse:PL12|divider[8,12,20,24,28,32]                   ; Merged with Pulse:PL12|divider[4]      ;
 ; Pulse:PL12|divider[9,15]                               ; Merged with Pulse:PL12|divider[7]      ;
-; Pulse:PL12|divider[18,22,26,30,34]                     ; Merged with Pulse:PL12|divider[14]     ;
+; Pulse:PL12|divider[22,30]                              ; Merged with Pulse:PL12|divider[14]     ;
+; Pulse:PL12|divider[26,34]                              ; Merged with Pulse:PL12|divider[18]     ;
 ; Delay:DL11|divider[4,10,16]                            ; Merged with Delay:DL11|divider[2]      ;
-; Delay:DL11|divider[7,15]                               ; Merged with Delay:DL11|divider[3]      ;
+; Delay:DL11|divider[15]                                 ; Merged with Delay:DL11|divider[7]      ;
 ; Delay:DL11|divider[12,14,18,20,22,24,26,28,30,32,34]   ; Merged with Delay:DL11|divider[8]      ;
-; Delay:DL11|divider[19,23,27,31]                        ; Merged with Delay:DL11|divider[11]     ;
+; Delay:DL11|divider[19,27]                              ; Merged with Delay:DL11|divider[11]     ;
 ; Delay:DL11|divider[17,21,25,29,33]                     ; Merged with Delay:DL11|divider[13]     ;
+; Delay:DL11|divider[31]                                 ; Merged with Delay:DL11|divider[23]     ;
+; Pulse:PL11|divider[8,24,32]                            ; Merged with Pulse:PL11|divider[0]      ;
 ; Pulse:PL11|divider[3,11,13,17,19,21,23,25,27,29,31,33] ; Merged with Pulse:PL11|divider[1]      ;
 ; Pulse:PL11|divider[6]                                  ; Merged with Pulse:PL11|divider[2]      ;
-; Pulse:PL11|divider[8,12,20,24,28,32]                   ; Merged with Pulse:PL11|divider[4]      ;
+; Pulse:PL11|divider[12,20,28]                           ; Merged with Pulse:PL11|divider[4]      ;
 ; Pulse:PL11|divider[9,15]                               ; Merged with Pulse:PL11|divider[7]      ;
 ; Pulse:PL11|divider[18,22,26,30,34]                     ; Merged with Pulse:PL11|divider[14]     ;
 ; Delay:DL10|divider[4,10,16]                            ; Merged with Delay:DL10|divider[2]      ;
 ; Delay:DL10|divider[7,15]                               ; Merged with Delay:DL10|divider[3]      ;
 ; Delay:DL10|divider[12,14,18,20,22,24,26,28,30,32,34]   ; Merged with Delay:DL10|divider[8]      ;
 ; Delay:DL10|divider[19,23,27,31]                        ; Merged with Delay:DL10|divider[11]     ;
-; Delay:DL10|divider[17,21,25,29,33]                     ; Merged with Delay:DL10|divider[13]     ;
+; Delay:DL10|divider[21,29]                              ; Merged with Delay:DL10|divider[13]     ;
+; Delay:DL10|divider[25,33]                              ; Merged with Delay:DL10|divider[17]     ;
+; Pulse:PL10|divider[4,8,12,20,24,28,32]                 ; Merged with Pulse:PL10|divider[0]      ;
 ; Pulse:PL10|divider[3,11,13,17,19,21,23,25,27,29,31,33] ; Merged with Pulse:PL10|divider[1]      ;
-; Pulse:PL10|divider[6]                                  ; Merged with Pulse:PL10|divider[2]      ;
-; Pulse:PL10|divider[8,12,14,18,20,22,24,26,28,30]       ; Merged with Pulse:PL10|divider[4]      ;
 ; Pulse:PL10|divider[9,15]                               ; Merged with Pulse:PL10|divider[7]      ;
-; Pulse:PL10|divider[16]                                 ; Merged with Pulse:PL10|divider[10]     ;
-; Pulse:PL10|divider[34]                                 ; Merged with Pulse:PL10|divider[32]     ;
-; Delay:DL9|divider[4,7,9,10]                            ; Merged with Delay:DL9|divider[2]       ;
-; Delay:DL9|divider[11..14,20,22,24,26,28,30,32,34]      ; Merged with Delay:DL9|divider[8]       ;
-; Delay:DL9|divider[16]                                  ; Merged with Delay:DL9|divider[15]      ;
+; Pulse:PL10|divider[22,30]                              ; Merged with Pulse:PL10|divider[14]     ;
+; Pulse:PL10|divider[26,34]                              ; Merged with Pulse:PL10|divider[18]     ;
+; Delay:DL9|divider[4,10,15,16]                          ; Merged with Delay:DL9|divider[2]       ;
+; Delay:DL9|divider[7]                                   ; Merged with Delay:DL9|divider[3]       ;
+; Delay:DL9|divider[12,14,20,22,24,26,28,30,32,34]       ; Merged with Delay:DL9|divider[8]       ;
+; Delay:DL9|divider[13,21,25,29,33]                      ; Merged with Delay:DL9|divider[11]      ;
 ; Delay:DL9|divider[18,19]                               ; Merged with Delay:DL9|divider[17]      ;
-; Delay:DL9|divider[25,29,33]                            ; Merged with Delay:DL9|divider[21]      ;
 ; Delay:DL9|divider[31]                                  ; Merged with Delay:DL9|divider[23]      ;
+; Pulse:PL9|divider[8,24,32]                             ; Merged with Pulse:PL9|divider[0]       ;
 ; Pulse:PL9|divider[3,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL9|divider[1]       ;
 ; Pulse:PL9|divider[6]                                   ; Merged with Pulse:PL9|divider[2]       ;
 ; Pulse:PL9|divider[12,20,28,34]                         ; Merged with Pulse:PL9|divider[4]       ;
 ; Pulse:PL9|divider[9,15]                                ; Merged with Pulse:PL9|divider[7]       ;
-; Pulse:PL9|divider[24,32]                               ; Merged with Pulse:PL9|divider[8]       ;
 ; Pulse:PL9|divider[18,22,26,30]                         ; Merged with Pulse:PL9|divider[14]      ;
 ; Delay:DL8|divider[4,10,16]                             ; Merged with Delay:DL8|divider[2]       ;
 ; Delay:DL8|divider[7,15]                                ; Merged with Delay:DL8|divider[3]       ;
-; Delay:DL8|divider[14,18,20,22,24,26,28,30,32,34]       ; Merged with Delay:DL8|divider[8]       ;
+; Delay:DL8|divider[12,14,18,20,22,24,26,28,30,32,34]    ; Merged with Delay:DL8|divider[8]       ;
 ; Delay:DL8|divider[19,23,27,31]                         ; Merged with Delay:DL8|divider[11]      ;
-; Delay:DL8|divider[13,17,21,25,29,33]                   ; Merged with Delay:DL8|divider[12]      ;
+; Delay:DL8|divider[21,29]                               ; Merged with Delay:DL8|divider[13]      ;
+; Delay:DL8|divider[25,33]                               ; Merged with Delay:DL8|divider[17]      ;
+; Pulse:PL8|divider[4,8,12,20,24,28,32]                  ; Merged with Pulse:PL8|divider[0]       ;
 ; Pulse:PL8|divider[3,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL8|divider[1]       ;
 ; Pulse:PL8|divider[6]                                   ; Merged with Pulse:PL8|divider[2]       ;
-; Pulse:PL8|divider[8,12,20,24,28,32]                    ; Merged with Pulse:PL8|divider[4]       ;
-; Pulse:PL8|divider[15]                                  ; Merged with Pulse:PL8|divider[7]       ;
-; Pulse:PL8|divider[16]                                  ; Merged with Pulse:PL8|divider[9]       ;
-; Pulse:PL8|divider[18,22,26,30,34]                      ; Merged with Pulse:PL8|divider[14]      ;
+; Pulse:PL8|divider[9,15]                                ; Merged with Pulse:PL8|divider[7]       ;
+; Pulse:PL8|divider[22,30]                               ; Merged with Pulse:PL8|divider[14]      ;
+; Pulse:PL8|divider[26,34]                               ; Merged with Pulse:PL8|divider[18]      ;
 ; Delay:DL7|divider[4,10,16]                             ; Merged with Delay:DL7|divider[2]       ;
-; Delay:DL7|divider[7,15]                                ; Merged with Delay:DL7|divider[3]       ;
+; Delay:DL7|divider[15]                                  ; Merged with Delay:DL7|divider[7]       ;
 ; Delay:DL7|divider[12,14,18,20,22,24,26,28,30,32,34]    ; Merged with Delay:DL7|divider[8]       ;
-; Delay:DL7|divider[19,23,27,31]                         ; Merged with Delay:DL7|divider[11]      ;
+; Delay:DL7|divider[19,27]                               ; Merged with Delay:DL7|divider[11]      ;
 ; Delay:DL7|divider[17,21,25,29,33]                      ; Merged with Delay:DL7|divider[13]      ;
-; Pulse:PL7|divider[11,13,17,19,21,23,25,27,29,31,33]    ; Merged with Pulse:PL7|divider[1]       ;
+; Delay:DL7|divider[31]                                  ; Merged with Delay:DL7|divider[23]      ;
+; Pulse:PL7|divider[8,24,32]                             ; Merged with Pulse:PL7|divider[0]       ;
+; Pulse:PL7|divider[3,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL7|divider[1]       ;
 ; Pulse:PL7|divider[6]                                   ; Merged with Pulse:PL7|divider[2]       ;
-; Pulse:PL7|divider[14,18,22,26,30,34]                   ; Merged with Pulse:PL7|divider[3]       ;
-; Pulse:PL7|divider[8,12,20,24,28,32]                    ; Merged with Pulse:PL7|divider[4]       ;
+; Pulse:PL7|divider[12,20,28]                            ; Merged with Pulse:PL7|divider[4]       ;
 ; Pulse:PL7|divider[9,15]                                ; Merged with Pulse:PL7|divider[7]       ;
+; Pulse:PL7|divider[18,22,26,30,34]                      ; Merged with Pulse:PL7|divider[14]      ;
 ; Delay:DL6|divider[4,10,16]                             ; Merged with Delay:DL6|divider[2]       ;
 ; Delay:DL6|divider[7,15]                                ; Merged with Delay:DL6|divider[3]       ;
-; Delay:DL6|divider[12,14,18,20,22,24,26,28,30,34]       ; Merged with Delay:DL6|divider[8]       ;
-; Delay:DL6|divider[19,23,27,31,32]                      ; Merged with Delay:DL6|divider[11]      ;
-; Delay:DL6|divider[17,21,25,29,33]                      ; Merged with Delay:DL6|divider[13]      ;
-; Pulse:PL6|divider[3,11,13,17,19,21,23,25,27,31,33]     ; Merged with Pulse:PL6|divider[1]       ;
+; Delay:DL6|divider[12,14,18,20,22,24,26,28,30,32,34]    ; Merged with Delay:DL6|divider[8]       ;
+; Delay:DL6|divider[19,23,27,31]                         ; Merged with Delay:DL6|divider[11]      ;
+; Delay:DL6|divider[21,29]                               ; Merged with Delay:DL6|divider[13]      ;
+; Delay:DL6|divider[25,33]                               ; Merged with Delay:DL6|divider[17]      ;
+; Pulse:PL6|divider[4,8,12,20,24,28,32]                  ; Merged with Pulse:PL6|divider[0]       ;
+; Pulse:PL6|divider[3,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL6|divider[1]       ;
 ; Pulse:PL6|divider[6]                                   ; Merged with Pulse:PL6|divider[2]       ;
-; Pulse:PL6|divider[8,12,20,24,28,32]                    ; Merged with Pulse:PL6|divider[4]       ;
 ; Pulse:PL6|divider[9,15]                                ; Merged with Pulse:PL6|divider[7]       ;
-; Pulse:PL6|divider[18,22,26,29,30,34]                   ; Merged with Pulse:PL6|divider[14]      ;
+; Pulse:PL6|divider[22,30]                               ; Merged with Pulse:PL6|divider[14]      ;
+; Pulse:PL6|divider[26,34]                               ; Merged with Pulse:PL6|divider[18]      ;
 ; Delay:DL5|divider[4,10,16]                             ; Merged with Delay:DL5|divider[2]       ;
 ; Delay:DL5|divider[7,15]                                ; Merged with Delay:DL5|divider[3]       ;
-; Delay:DL5|divider[12,14,18,20,22,24,28,30,32,34]       ; Merged with Delay:DL5|divider[8]       ;
-; Delay:DL5|divider[19,23,27,31]                         ; Merged with Delay:DL5|divider[11]      ;
-; Delay:DL5|divider[17,21,25,26,29,33]                   ; Merged with Delay:DL5|divider[13]      ;
-; Pulse:PL5|divider[3,11,13,17,19,21,25,27,29,31,33]     ; Merged with Pulse:PL5|divider[1]       ;
+; Delay:DL5|divider[12,14,18,20,22,24,26,28,30,32,34]    ; Merged with Delay:DL5|divider[8]       ;
+; Delay:DL5|divider[19,27]                               ; Merged with Delay:DL5|divider[11]      ;
+; Delay:DL5|divider[17,21,25,29,33]                      ; Merged with Delay:DL5|divider[13]      ;
+; Delay:DL5|divider[31]                                  ; Merged with Delay:DL5|divider[23]      ;
+; Pulse:PL5|divider[8,24,32]                             ; Merged with Pulse:PL5|divider[0]       ;
+; Pulse:PL5|divider[3,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL5|divider[1]       ;
 ; Pulse:PL5|divider[6]                                   ; Merged with Pulse:PL5|divider[2]       ;
-; Pulse:PL5|divider[8,12,20,23,24,28,32]                 ; Merged with Pulse:PL5|divider[4]       ;
+; Pulse:PL5|divider[12,20,28]                            ; Merged with Pulse:PL5|divider[4]       ;
 ; Pulse:PL5|divider[9,15]                                ; Merged with Pulse:PL5|divider[7]       ;
 ; Pulse:PL5|divider[18,22,26,30,34]                      ; Merged with Pulse:PL5|divider[14]      ;
 ; Delay:DL4|divider[4,10,16]                             ; Merged with Delay:DL4|divider[2]       ;
 ; Delay:DL4|divider[7,15]                                ; Merged with Delay:DL4|divider[3]       ;
-; Delay:DL4|divider[12,14,18,22,24,26,28,30,32,34]       ; Merged with Delay:DL4|divider[8]       ;
-; Delay:DL4|divider[19,20,23,27,31]                      ; Merged with Delay:DL4|divider[11]      ;
-; Delay:DL4|divider[17,21,25,29,33]                      ; Merged with Delay:DL4|divider[13]      ;
-; Pulse:PL4|divider[3,11,13,19,21,23,25,27,29,31,33]     ; Merged with Pulse:PL4|divider[1]       ;
-; Pulse:PL4|divider[6]                                   ; Merged with Pulse:PL4|divider[2]       ;
-; Pulse:PL4|divider[8,12,20,24,28,32]                    ; Merged with Pulse:PL4|divider[4]       ;
+; Delay:DL4|divider[12,14,18,20,22,24,26,28,30,32,34]    ; Merged with Delay:DL4|divider[8]       ;
+; Delay:DL4|divider[19,23,27,31]                         ; Merged with Delay:DL4|divider[11]      ;
+; Delay:DL4|divider[21,29]                               ; Merged with Delay:DL4|divider[13]      ;
+; Delay:DL4|divider[25,33]                               ; Merged with Delay:DL4|divider[17]      ;
+; Pulse:PL4|divider[4,8,12,20,24,28,32]                  ; Merged with Pulse:PL4|divider[0]       ;
+; Pulse:PL4|divider[3,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL4|divider[1]       ;
 ; Pulse:PL4|divider[9,15]                                ; Merged with Pulse:PL4|divider[7]       ;
-; Pulse:PL4|divider[17,18,22,26,30,34]                   ; Merged with Pulse:PL4|divider[14]      ;
+; Pulse:PL4|divider[22,30]                               ; Merged with Pulse:PL4|divider[14]      ;
+; Pulse:PL4|divider[26,34]                               ; Merged with Pulse:PL4|divider[18]      ;
 ; Delay:DL3|divider[4,10,16]                             ; Merged with Delay:DL3|divider[2]       ;
-; Delay:DL3|divider[7,15]                                ; Merged with Delay:DL3|divider[3]       ;
-; Delay:DL3|divider[12,18,20,22,24,26,28,30,32,34]       ; Merged with Delay:DL3|divider[8]       ;
-; Delay:DL3|divider[14,17,19,21,23,25,27,29,31,33]       ; Merged with Delay:DL3|divider[13]      ;
-; Pulse:PL3|divider[3,13,17,19,21,23,25,27,29,31,33]     ; Merged with Pulse:PL3|divider[1]       ;
+; Delay:DL3|divider[15]                                  ; Merged with Delay:DL3|divider[7]       ;
+; Delay:DL3|divider[12,14,18,20,22,24,26,28,30,32,34]    ; Merged with Delay:DL3|divider[8]       ;
+; Delay:DL3|divider[19,27]                               ; Merged with Delay:DL3|divider[11]      ;
+; Delay:DL3|divider[17,21,25,29,33]                      ; Merged with Delay:DL3|divider[13]      ;
+; Delay:DL3|divider[31]                                  ; Merged with Delay:DL3|divider[23]      ;
+; Pulse:PL3|divider[8,24,32]                             ; Merged with Pulse:PL3|divider[0]       ;
+; Pulse:PL3|divider[3,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL3|divider[1]       ;
 ; Pulse:PL3|divider[6]                                   ; Merged with Pulse:PL3|divider[2]       ;
-; Pulse:PL3|divider[8,11,12,14,18,20,22,24,26,28]        ; Merged with Pulse:PL3|divider[4]       ;
+; Pulse:PL3|divider[12,20,28]                            ; Merged with Pulse:PL3|divider[4]       ;
 ; Pulse:PL3|divider[9,15]                                ; Merged with Pulse:PL3|divider[7]       ;
-; Pulse:PL3|divider[16]                                  ; Merged with Pulse:PL3|divider[10]      ;
-; Pulse:PL3|divider[32,34]                               ; Merged with Pulse:PL3|divider[30]      ;
-; Delay:DL2|divider[4,10,15,16]                          ; Merged with Delay:DL2|divider[2]       ;
-; Delay:DL2|divider[7,9]                                 ; Merged with Delay:DL2|divider[3]       ;
-; Delay:DL2|divider[11,13]                               ; Merged with Delay:DL2|divider[8]       ;
-; Delay:DL2|divider[14,17..31]                           ; Merged with Delay:DL2|divider[12]      ;
-; Delay:DL2|divider[33,34]                               ; Merged with Delay:DL2|divider[32]      ;
-; Pulse:PL2|divider[3,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL2|divider[1]       ;
+; Pulse:PL3|divider[18,22,26,30,34]                      ; Merged with Pulse:PL3|divider[14]      ;
+; Delay:DL2|divider[4,10,16]                             ; Merged with Delay:DL2|divider[2]       ;
+; Delay:DL2|divider[7,15]                                ; Merged with Delay:DL2|divider[3]       ;
+; Delay:DL2|divider[12,14,18,20,22,24,26,28,30..34]      ; Merged with Delay:DL2|divider[8]       ;
+; Delay:DL2|divider[19,21,23,25,27,29]                   ; Merged with Delay:DL2|divider[11]      ;
+; Delay:DL2|divider[17]                                  ; Merged with Delay:DL2|divider[13]      ;
+; Pulse:PL2|divider[1,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL2|divider[0]       ;
 ; Pulse:PL2|divider[6]                                   ; Merged with Pulse:PL2|divider[2]       ;
+; Pulse:PL2|divider[4]                                   ; Merged with Pulse:PL2|divider[3]       ;
 ; Pulse:PL2|divider[9,15]                                ; Merged with Pulse:PL2|divider[7]       ;
 ; Pulse:PL2|divider[12,20,24,28,32]                      ; Merged with Pulse:PL2|divider[8]       ;
 ; Pulse:PL2|divider[22,30]                               ; Merged with Pulse:PL2|divider[14]      ;
 ; Pulse:PL2|divider[26,34]                               ; Merged with Pulse:PL2|divider[18]      ;
-; Delay:DL1|divider[9]                                   ; Merged with Delay:DL1|divider[2]       ;
-; Delay:DL1|divider[10,16]                               ; Merged with Delay:DL1|divider[4]       ;
+; Delay:DL1|divider[4,10,16]                             ; Merged with Delay:DL1|divider[2]       ;
 ; Delay:DL1|divider[15]                                  ; Merged with Delay:DL1|divider[7]       ;
-; Delay:DL1|divider[12,14,18,20,22,24,26,28,30,32]       ; Merged with Delay:DL1|divider[8]       ;
+; Delay:DL1|divider[12,14,18,20,22,24,26,28,30,32,34]    ; Merged with Delay:DL1|divider[8]       ;
 ; Delay:DL1|divider[19,27]                               ; Merged with Delay:DL1|divider[11]      ;
 ; Delay:DL1|divider[17,21,25,29,33]                      ; Merged with Delay:DL1|divider[13]      ;
-; Delay:DL1|divider[31,34]                               ; Merged with Delay:DL1|divider[23]      ;
-; Pulse:PL1|divider[3,11,13,17,19,21,23,25,27,29,33]     ; Merged with Pulse:PL1|divider[1]       ;
+; Delay:DL1|divider[31]                                  ; Merged with Delay:DL1|divider[23]      ;
+; Pulse:PL1|divider[32]                                  ; Merged with Pulse:PL1|divider[0]       ;
+; Pulse:PL1|divider[3,11,13,17,19,21,23,25,27,29,31,33]  ; Merged with Pulse:PL1|divider[1]       ;
 ; Pulse:PL1|divider[6]                                   ; Merged with Pulse:PL1|divider[2]       ;
 ; Pulse:PL1|divider[12,20,28]                            ; Merged with Pulse:PL1|divider[4]       ;
 ; Pulse:PL1|divider[9,15]                                ; Merged with Pulse:PL1|divider[7]       ;
-; Pulse:PL1|divider[24,32]                               ; Merged with Pulse:PL1|divider[8]       ;
-; Pulse:PL1|divider[18,22,26,30,31,34]                   ; Merged with Pulse:PL1|divider[14]      ;
+; Pulse:PL1|divider[24]                                  ; Merged with Pulse:PL1|divider[8]       ;
+; Pulse:PL1|divider[18,22,26,30,34]                      ; Merged with Pulse:PL1|divider[14]      ;
 ; Delay:DL16|divider[4]                                  ; Merged with Delay:DL16|divider[2]      ;
-; Delay:DL16|divider[9]                                  ; Merged with Delay:DL16|divider[3]      ;
 ; Delay:DL16|divider[6]                                  ; Merged with Delay:DL16|divider[5]      ;
-; Delay:DL16|divider[12,17]                              ; Merged with Delay:DL16|divider[8]      ;
-; Delay:DL16|divider[13,27]                              ; Merged with Delay:DL16|divider[11]     ;
-; Delay:DL16|divider[25]                                 ; Merged with Delay:DL16|divider[22]     ;
-; Delay:DL15|divider[3,16]                               ; Merged with Delay:DL15|divider[2]      ;
+; Delay:DL16|divider[12,14]                              ; Merged with Delay:DL16|divider[8]      ;
+; Delay:DL16|divider[13,25]                              ; Merged with Delay:DL16|divider[11]     ;
+; Delay:DL16|divider[18,27]                              ; Merged with Delay:DL16|divider[17]     ;
+; Pulse:PL16|divider[18]                                 ; Merged with Pulse:PL16|divider[0]      ;
+; Pulse:PL16|divider[20]                                 ; Merged with Pulse:PL16|divider[1]      ;
+; Pulse:PL16|divider[11,19,26]                           ; Merged with Pulse:PL16|divider[4]      ;
+; Pulse:PL16|divider[16]                                 ; Merged with Pulse:PL16|divider[7]      ;
+; Pulse:PL16|divider[15]                                 ; Merged with Pulse:PL16|divider[10]     ;
+; Delay:DL15|divider[7]                                  ; Merged with Delay:DL15|divider[2]      ;
 ; Delay:DL15|divider[11]                                 ; Merged with Delay:DL15|divider[8]      ;
-; Delay:DL15|divider[22]                                 ; Merged with Delay:DL15|divider[13]     ;
-; Pulse:PL15|divider[4,12]                               ; Merged with Pulse:PL15|divider[1]      ;
-; Pulse:PL15|divider[20,28]                              ; Merged with Pulse:PL15|divider[17]     ;
+; Delay:DL15|divider[16]                                 ; Merged with Delay:DL15|divider[9]      ;
+; Delay:DL15|divider[22,23]                              ; Merged with Delay:DL15|divider[13]     ;
+; Pulse:PL15|divider[20]                                 ; Merged with Pulse:PL15|divider[0]      ;
+; Pulse:PL15|divider[4,14,17]                            ; Merged with Pulse:PL15|divider[1]      ;
+; Pulse:PL15|divider[16]                                 ; Merged with Pulse:PL15|divider[10]     ;
 ; Delay:DL14|divider[3]                                  ; Merged with Delay:DL14|divider[2]      ;
-; Delay:DL14|divider[11,21]                              ; Merged with Delay:DL14|divider[8]      ;
+; Delay:DL14|divider[6]                                  ; Merged with Delay:DL14|divider[5]      ;
+; Delay:DL14|divider[11,17]                              ; Merged with Delay:DL14|divider[8]      ;
 ; Delay:DL14|divider[34]                                 ; Merged with Delay:DL14|divider[13]     ;
-; Pulse:PL14|divider[34]                                 ; Merged with Pulse:PL14|divider[1]      ;
-; Pulse:PL14|divider[14,27]                              ; Merged with Pulse:PL14|divider[4]      ;
-; Pulse:PL14|divider[10,16]                              ; Merged with Pulse:PL14|divider[7]      ;
+; Pulse:PL14|divider[14,18]                              ; Merged with Pulse:PL14|divider[0]      ;
+; Pulse:PL14|divider[27]                                 ; Merged with Pulse:PL14|divider[1]      ;
+; Pulse:PL14|divider[16]                                 ; Merged with Pulse:PL14|divider[10]     ;
+; Delay:DL13|divider[7]                                  ; Merged with Delay:DL13|divider[2]      ;
 ; Delay:DL13|divider[9]                                  ; Merged with Delay:DL13|divider[3]      ;
-; Delay:DL13|divider[11,33]                              ; Merged with Delay:DL13|divider[8]      ;
+; Delay:DL13|divider[11,23]                              ; Merged with Delay:DL13|divider[8]      ;
 ; Delay:DL13|divider[34]                                 ; Merged with Delay:DL13|divider[13]     ;
-; Pulse:PL13|divider[14,24]                              ; Merged with Pulse:PL13|divider[1]      ;
+; Pulse:PL13|divider[24]                                 ; Merged with Pulse:PL13|divider[0]      ;
+; Pulse:PL13|divider[4,8]                                ; Merged with Pulse:PL13|divider[1]      ;
 ; Pulse:PL13|divider[10]                                 ; Merged with Pulse:PL13|divider[7]      ;
-; Pulse:PL13|divider[12]                                 ; Merged with Pulse:PL13|divider[8]      ;
-; Delay:DL12|divider[3,9]                                ; Merged with Delay:DL12|divider[2]      ;
-; Delay:DL12|divider[11]                                 ; Merged with Delay:DL12|divider[8]      ;
-; Pulse:PL12|divider[4,14]                               ; Merged with Pulse:PL12|divider[1]      ;
-; Pulse:PL12|divider[16]                                 ; Merged with Pulse:PL12|divider[10]     ;
-; Delay:DL11|divider[9]                                  ; Merged with Delay:DL11|divider[3]      ;
-; Delay:DL11|divider[11]                                 ; Merged with Delay:DL11|divider[8]      ;
+; Delay:DL12|divider[9]                                  ; Merged with Delay:DL12|divider[3]      ;
+; Delay:DL12|divider[11,17]                              ; Merged with Delay:DL12|divider[8]      ;
+; Pulse:PL12|divider[14,18]                              ; Merged with Pulse:PL12|divider[1]      ;
+; Pulse:PL12|divider[6]                                  ; Merged with Pulse:PL12|divider[2]      ;
+; Pulse:PL12|divider[16]                                 ; Merged with Pulse:PL12|divider[7]      ;
+; Delay:DL11|divider[1]                                  ; Merged with Delay:DL11|divider[0]      ;
+; Delay:DL11|divider[9]                                  ; Merged with Delay:DL11|divider[7]      ;
+; Delay:DL11|divider[11,23]                              ; Merged with Delay:DL11|divider[8]      ;
 ; Pulse:PL11|divider[4,14]                               ; Merged with Pulse:PL11|divider[1]      ;
-; Pulse:PL11|divider[10,16]                              ; Merged with Pulse:PL11|divider[7]      ;
 ; Delay:DL10|divider[9]                                  ; Merged with Delay:DL10|divider[3]      ;
-; Delay:DL10|divider[11]                                 ; Merged with Delay:DL10|divider[8]      ;
-; Pulse:PL10|divider[4,32]                               ; Merged with Pulse:PL10|divider[1]      ;
-; Delay:DL9|divider[15]                                  ; Merged with Delay:DL9|divider[3]       ;
-; Delay:DL9|divider[17,23]                               ; Merged with Delay:DL9|divider[8]       ;
-; Delay:DL9|divider[27]                                  ; Merged with Delay:DL9|divider[21]      ;
-; Pulse:PL9|divider[8,14]                                ; Merged with Pulse:PL9|divider[4]       ;
-; Pulse:PL9|divider[10,16]                               ; Merged with Pulse:PL9|divider[7]       ;
+; Delay:DL10|divider[11,17]                              ; Merged with Delay:DL10|divider[8]      ;
+; Pulse:PL10|divider[14,18]                              ; Merged with Pulse:PL10|divider[1]      ;
+; Pulse:PL10|divider[16]                                 ; Merged with Pulse:PL10|divider[10]     ;
+; Delay:DL9|divider[9]                                   ; Merged with Delay:DL9|divider[3]       ;
+; Delay:DL9|divider[27]                                  ; Merged with Delay:DL9|divider[8]       ;
+; Delay:DL9|divider[23]                                  ; Merged with Delay:DL9|divider[11]      ;
+; Pulse:PL9|divider[4,14]                                ; Merged with Pulse:PL9|divider[1]       ;
+; Pulse:PL9|divider[16]                                  ; Merged with Pulse:PL9|divider[10]      ;
+; Delay:DL8|divider[1]                                   ; Merged with Delay:DL8|divider[0]       ;
 ; Delay:DL8|divider[9]                                   ; Merged with Delay:DL8|divider[3]       ;
 ; Delay:DL8|divider[6]                                   ; Merged with Delay:DL8|divider[5]       ;
-; Delay:DL8|divider[11,12]                               ; Merged with Delay:DL8|divider[8]       ;
-; Pulse:PL8|divider[4]                                   ; Merged with Pulse:PL8|divider[1]       ;
-; Pulse:PL8|divider[10]                                  ; Merged with Pulse:PL8|divider[7]       ;
-; Delay:DL7|divider[3,9]                                 ; Merged with Delay:DL7|divider[2]       ;
-; Delay:DL7|divider[11]                                  ; Merged with Delay:DL7|divider[8]       ;
-; Pulse:PL7|divider[3,4]                                 ; Merged with Pulse:PL7|divider[1]       ;
-; Pulse:PL7|divider[16]                                  ; Merged with Pulse:PL7|divider[7]       ;
+; Delay:DL8|divider[11,13,17]                            ; Merged with Delay:DL8|divider[8]       ;
+; Pulse:PL8|divider[14,18]                               ; Merged with Pulse:PL8|divider[0]       ;
+; Pulse:PL8|divider[16]                                  ; Merged with Pulse:PL8|divider[10]      ;
+; Delay:DL7|divider[7,9]                                 ; Merged with Delay:DL7|divider[2]       ;
+; Delay:DL7|divider[11,23]                               ; Merged with Delay:DL7|divider[8]       ;
+; Pulse:PL7|divider[4,14]                                ; Merged with Pulse:PL7|divider[1]       ;
+; Pulse:PL7|divider[16]                                  ; Merged with Pulse:PL7|divider[10]      ;
 ; Delay:DL6|divider[9]                                   ; Merged with Delay:DL6|divider[3]       ;
-; Delay:DL6|divider[11]                                  ; Merged with Delay:DL6|divider[8]       ;
-; Pulse:PL6|divider[4,14]                                ; Merged with Pulse:PL6|divider[1]       ;
-; Pulse:PL6|divider[16]                                  ; Merged with Pulse:PL6|divider[10]      ;
-; Delay:DL5|divider[9]                                   ; Merged with Delay:DL5|divider[3]       ;
-; Delay:DL5|divider[11]                                  ; Merged with Delay:DL5|divider[8]       ;
+; Delay:DL6|divider[11,17]                               ; Merged with Delay:DL6|divider[8]       ;
+; Pulse:PL6|divider[14,18]                               ; Merged with Pulse:PL6|divider[0]       ;
+; Pulse:PL6|divider[10,16]                               ; Merged with Pulse:PL6|divider[7]       ;
+; Delay:DL5|divider[1]                                   ; Merged with Delay:DL5|divider[0]       ;
+; Delay:DL5|divider[9]                                   ; Merged with Delay:DL5|divider[2]       ;
+; Delay:DL5|divider[6]                                   ; Merged with Delay:DL5|divider[5]       ;
+; Delay:DL5|divider[23]                                  ; Merged with Delay:DL5|divider[11]      ;
 ; Pulse:PL5|divider[4,14]                                ; Merged with Pulse:PL5|divider[1]       ;
-; Pulse:PL5|divider[16]                                  ; Merged with Pulse:PL5|divider[7]       ;
-; Delay:DL4|divider[3,9]                                 ; Merged with Delay:DL4|divider[2]       ;
-; Delay:DL4|divider[6]                                   ; Merged with Delay:DL4|divider[5]       ;
-; Delay:DL4|divider[11,13]                               ; Merged with Delay:DL4|divider[8]       ;
-; Pulse:PL4|divider[14]                                  ; Merged with Pulse:PL4|divider[4]       ;
+; Pulse:PL5|divider[16]                                  ; Merged with Pulse:PL5|divider[10]      ;
+; Delay:DL4|divider[9]                                   ; Merged with Delay:DL4|divider[3]       ;
+; Delay:DL4|divider[17]                                  ; Merged with Delay:DL4|divider[8]       ;
+; Pulse:PL4|divider[18]                                  ; Merged with Pulse:PL4|divider[1]       ;
+; Pulse:PL4|divider[6]                                   ; Merged with Pulse:PL4|divider[2]       ;
 ; Pulse:PL4|divider[16]                                  ; Merged with Pulse:PL4|divider[10]      ;
-; Delay:DL3|divider[9]                                   ; Merged with Delay:DL3|divider[3]       ;
-; Pulse:PL3|divider[4,30]                                ; Merged with Pulse:PL3|divider[1]       ;
-; Pulse:PL2|divider[4]                                   ; Merged with Pulse:PL2|divider[1]       ;
+; Delay:DL3|divider[7,9]                                 ; Merged with Delay:DL3|divider[2]       ;
+; Delay:DL3|divider[11,23]                               ; Merged with Delay:DL3|divider[8]       ;
+; Pulse:PL3|divider[14]                                  ; Merged with Pulse:PL3|divider[4]       ;
+; Pulse:PL3|divider[16]                                  ; Merged with Pulse:PL3|divider[10]      ;
+; Delay:DL2|divider[9]                                   ; Merged with Delay:DL2|divider[3]       ;
+; Pulse:PL2|divider[3]                                   ; Merged with Pulse:PL2|divider[0]       ;
 ; Pulse:PL2|divider[16]                                  ; Merged with Pulse:PL2|divider[7]       ;
 ; Pulse:PL2|divider[14,18]                               ; Merged with Pulse:PL2|divider[8]       ;
-; Delay:DL1|divider[7]                                   ; Merged with Delay:DL1|divider[3]       ;
-; Delay:DL1|divider[23]                                  ; Merged with Delay:DL1|divider[11]      ;
+; Delay:DL1|divider[7,9]                                 ; Merged with Delay:DL1|divider[2]       ;
+; Delay:DL1|divider[11,23]                               ; Merged with Delay:DL1|divider[8]       ;
+; Pulse:PL1|divider[14]                                  ; Merged with Pulse:PL1|divider[0]       ;
 ; Pulse:PL1|divider[4]                                   ; Merged with Pulse:PL1|divider[1]       ;
 ; Pulse:PL1|divider[10]                                  ; Merged with Pulse:PL1|divider[7]       ;
-; Delay:DL16|divider[3]                                  ; Merged with Delay:DL16|divider[2]      ;
-; Delay:DL16|divider[22]                                 ; Merged with Delay:DL16|divider[11]     ;
-; Delay:DL15|divider[9]                                  ; Merged with Delay:DL15|divider[2]      ;
+; Delay:DL16|divider[1]                                  ; Merged with Delay:DL16|divider[0]      ;
+; Delay:DL16|divider[3,9]                                ; Merged with Delay:DL16|divider[2]      ;
+; Delay:DL16|divider[17]                                 ; Merged with Delay:DL16|divider[11]     ;
+; Pulse:PL16|divider[4]                                  ; Merged with Pulse:PL16|divider[0]      ;
+; Pulse:PL16|divider[10]                                 ; Merged with Pulse:PL16|divider[7]      ;
+; Delay:DL15|divider[3,9]                                ; Merged with Delay:DL15|divider[2]      ;
 ; Delay:DL15|divider[13]                                 ; Merged with Delay:DL15|divider[8]      ;
-; Pulse:PL15|divider[17]                                 ; Merged with Pulse:PL15|divider[1]      ;
-; Pulse:PL15|divider[16]                                 ; Merged with Pulse:PL15|divider[7]      ;
-; Delay:DL14|divider[9]                                  ; Merged with Delay:DL14|divider[2]      ;
-; Delay:DL14|divider[6]                                  ; Merged with Delay:DL14|divider[5]      ;
+; Delay:DL14|divider[1]                                  ; Merged with Delay:DL14|divider[0]      ;
 ; Delay:DL14|divider[13]                                 ; Merged with Delay:DL14|divider[8]      ;
-; Pulse:PL14|divider[4]                                  ; Merged with Pulse:PL14|divider[1]      ;
-; Delay:DL13|divider[6]                                  ; Merged with Delay:DL13|divider[5]      ;
-; Pulse:PL13|divider[6]                                  ; Merged with Pulse:PL13|divider[2]      ;
+; Pulse:PL14|divider[1]                                  ; Merged with Pulse:PL14|divider[0]      ;
+; Pulse:PL14|divider[10]                                 ; Merged with Pulse:PL14|divider[7]      ;
+; Delay:DL13|divider[3]                                  ; Merged with Delay:DL13|divider[2]      ;
+; Pulse:PL13|divider[16]                                 ; Merged with Pulse:PL13|divider[7]      ;
+; Delay:DL12|divider[1]                                  ; Merged with Delay:DL12|divider[0]      ;
 ; Delay:DL12|divider[6]                                  ; Merged with Delay:DL12|divider[5]      ;
-; Delay:DL12|divider[13]                                 ; Merged with Delay:DL12|divider[8]      ;
+; Pulse:PL12|divider[1]                                  ; Merged with Pulse:PL12|divider[0]      ;
 ; Pulse:PL12|divider[10]                                 ; Merged with Pulse:PL12|divider[7]      ;
-; Delay:DL11|divider[3]                                  ; Merged with Delay:DL11|divider[2]      ;
+; Delay:DL11|divider[3,7]                                ; Merged with Delay:DL11|divider[2]      ;
 ; Delay:DL11|divider[13]                                 ; Merged with Delay:DL11|divider[8]      ;
+; Pulse:PL11|divider[16]                                 ; Merged with Pulse:PL11|divider[7]      ;
 ; Delay:DL10|divider[3]                                  ; Merged with Delay:DL10|divider[2]      ;
 ; Delay:DL10|divider[13]                                 ; Merged with Delay:DL10|divider[8]      ;
-; Pulse:PL9|divider[4]                                   ; Merged with Pulse:PL9|divider[1]       ;
-; Delay:DL8|divider[3]                                   ; Merged with Delay:DL8|divider[2]       ;
-; Pulse:PL8|divider[9]                                   ; Merged with Pulse:PL8|divider[7]       ;
+; Pulse:PL10|divider[6]                                  ; Merged with Pulse:PL10|divider[2]      ;
+; Delay:DL9|divider[17]                                  ; Merged with Delay:DL9|divider[8]       ;
+; Pulse:PL9|divider[10]                                  ; Merged with Pulse:PL9|divider[7]       ;
+; Pulse:PL8|divider[1]                                   ; Merged with Pulse:PL8|divider[0]       ;
+; Pulse:PL8|divider[10]                                  ; Merged with Pulse:PL8|divider[7]       ;
+; Delay:DL7|divider[1]                                   ; Merged with Delay:DL7|divider[0]       ;
+; Delay:DL7|divider[3]                                   ; Merged with Delay:DL7|divider[2]       ;
 ; Delay:DL7|divider[13]                                  ; Merged with Delay:DL7|divider[8]       ;
+; Delay:DL6|divider[1]                                   ; Merged with Delay:DL6|divider[0]       ;
 ; Delay:DL6|divider[6]                                   ; Merged with Delay:DL6|divider[5]       ;
-; Pulse:PL6|divider[10]                                  ; Merged with Pulse:PL6|divider[7]       ;
-; Delay:DL5|divider[3]                                   ; Merged with Delay:DL5|divider[2]       ;
+; Pulse:PL6|divider[1]                                   ; Merged with Pulse:PL6|divider[0]       ;
 ; Delay:DL5|divider[13]                                  ; Merged with Delay:DL5|divider[8]       ;
-; Pulse:PL4|divider[4]                                   ; Merged with Pulse:PL4|divider[1]       ;
-; Delay:DL3|divider[6]                                   ; Merged with Delay:DL3|divider[5]       ;
+; Pulse:PL5|divider[1]                                   ; Merged with Pulse:PL5|divider[0]       ;
+; Pulse:PL5|divider[10]                                  ; Merged with Pulse:PL5|divider[7]       ;
+; Delay:DL4|divider[3]                                   ; Merged with Delay:DL4|divider[2]       ;
+; Delay:DL4|divider[13]                                  ; Merged with Delay:DL4|divider[8]       ;
+; Pulse:PL4|divider[1,14]                                ; Merged with Pulse:PL4|divider[0]       ;
+; Pulse:PL4|divider[10]                                  ; Merged with Pulse:PL4|divider[7]       ;
+; Delay:DL3|divider[3]                                   ; Merged with Delay:DL3|divider[2]       ;
 ; Delay:DL3|divider[13]                                  ; Merged with Delay:DL3|divider[8]       ;
-; Delay:DL2|divider[6]                                   ; Merged with Delay:DL2|divider[5]       ;
-; Delay:DL2|divider[32]                                  ; Merged with Delay:DL2|divider[8]       ;
-; Pulse:PL2|divider[8]                                   ; Merged with Pulse:PL2|divider[1]       ;
+; Pulse:PL3|divider[4]                                   ; Merged with Pulse:PL3|divider[1]       ;
+; Pulse:PL3|divider[10]                                  ; Merged with Pulse:PL3|divider[7]       ;
+; Delay:DL2|divider[13]                                  ; Merged with Delay:DL2|divider[8]       ;
+; Pulse:PL2|divider[8]                                   ; Merged with Pulse:PL2|divider[0]       ;
 ; Pulse:PL2|divider[10]                                  ; Merged with Pulse:PL2|divider[7]       ;
-; Delay:DL1|divider[4]                                   ; Merged with Delay:DL1|divider[2]       ;
-; Delay:DL1|divider[13]                                  ; Merged with Delay:DL1|divider[8]       ;
 ; Pulse:PL1|divider[8]                                   ; Merged with Pulse:PL1|divider[1]       ;
+; Pulse:PL1|divider[16]                                  ; Merged with Pulse:PL1|divider[7]       ;
 ; Delay:DL16|divider[11]                                 ; Merged with Delay:DL16|divider[8]      ;
+; Pulse:PL16|divider[1]                                  ; Merged with Pulse:PL16|divider[0]      ;
+; Delay:DL15|divider[1]                                  ; Merged with Delay:DL15|divider[0]      ;
 ; Delay:DL15|divider[6]                                  ; Merged with Delay:DL15|divider[5]      ;
-; Delay:DL13|divider[3]                                  ; Merged with Delay:DL13|divider[2]      ;
-; Delay:DL13|divider[13]                                 ; Merged with Delay:DL13|divider[8]      ;
-; Pulse:PL13|divider[8]                                  ; Merged with Pulse:PL13|divider[1]      ;
-; Pulse:PL13|divider[16]                                 ; Merged with Pulse:PL13|divider[7]      ;
+; Pulse:PL15|divider[10]                                 ; Merged with Pulse:PL15|divider[7]      ;
+; Delay:DL14|divider[9]                                  ; Merged with Delay:DL14|divider[2]      ;
+; Delay:DL13|divider[1]                                  ; Merged with Delay:DL13|divider[0]      ;
+; Delay:DL13|divider[6]                                  ; Merged with Delay:DL13|divider[5]      ;
+; Pulse:PL13|divider[1]                                  ; Merged with Pulse:PL13|divider[0]      ;
+; Pulse:PL13|divider[6]                                  ; Merged with Pulse:PL13|divider[2]      ;
+; Delay:DL12|divider[3]                                  ; Merged with Delay:DL12|divider[2]      ;
+; Delay:DL12|divider[13]                                 ; Merged with Delay:DL12|divider[8]      ;
 ; Delay:DL11|divider[6]                                  ; Merged with Delay:DL11|divider[5]      ;
-; Delay:DL10|divider[6]                                  ; Merged with Delay:DL10|divider[5]      ;
+; Pulse:PL11|divider[1]                                  ; Merged with Pulse:PL11|divider[0]      ;
+; Pulse:PL11|divider[10]                                 ; Merged with Pulse:PL11|divider[7]      ;
+; Pulse:PL10|divider[1]                                  ; Merged with Pulse:PL10|divider[0]      ;
 ; Pulse:PL10|divider[10]                                 ; Merged with Pulse:PL10|divider[7]      ;
 ; Delay:DL9|divider[3]                                   ; Merged with Delay:DL9|divider[2]       ;
-; Delay:DL9|divider[21]                                  ; Merged with Delay:DL9|divider[8]       ;
-; Pulse:PL8|divider[14]                                  ; Merged with Pulse:PL8|divider[1]       ;
+; Delay:DL9|divider[11]                                  ; Merged with Delay:DL9|divider[8]       ;
+; Delay:DL8|divider[3]                                   ; Merged with Delay:DL8|divider[2]       ;
 ; Delay:DL7|divider[6]                                   ; Merged with Delay:DL7|divider[5]       ;
+; Pulse:PL7|divider[1]                                   ; Merged with Pulse:PL7|divider[0]       ;
 ; Pulse:PL7|divider[10]                                  ; Merged with Pulse:PL7|divider[7]       ;
 ; Delay:DL6|divider[3]                                   ; Merged with Delay:DL6|divider[2]       ;
 ; Delay:DL6|divider[13]                                  ; Merged with Delay:DL6|divider[8]       ;
-; Delay:DL5|divider[6]                                   ; Merged with Delay:DL5|divider[5]       ;
-; Pulse:PL5|divider[10]                                  ; Merged with Pulse:PL5|divider[7]       ;
-; Pulse:PL3|divider[10]                                  ; Merged with Pulse:PL3|divider[7]       ;
+; Delay:DL5|divider[3]                                   ; Merged with Delay:DL5|divider[2]       ;
+; Delay:DL5|divider[11]                                  ; Merged with Delay:DL5|divider[8]       ;
+; Delay:DL4|divider[1]                                   ; Merged with Delay:DL4|divider[0]       ;
+; Delay:DL4|divider[11]                                  ; Merged with Delay:DL4|divider[8]       ;
+; Pulse:PL3|divider[1]                                   ; Merged with Pulse:PL3|divider[0]       ;
 ; Delay:DL2|divider[3]                                   ; Merged with Delay:DL2|divider[2]       ;
+; Delay:DL2|divider[11]                                  ; Merged with Delay:DL2|divider[8]       ;
 ; Delay:DL1|divider[3]                                   ; Merged with Delay:DL1|divider[2]       ;
-; Delay:DL1|divider[11]                                  ; Merged with Delay:DL1|divider[8]       ;
-; Pulse:PL1|divider[14]                                  ; Merged with Pulse:PL1|divider[1]       ;
-; Pulse:PL1|divider[16]                                  ; Merged with Pulse:PL1|divider[7]       ;
-; Pulse:PL15|divider[10]                                 ; Merged with Pulse:PL15|divider[7]      ;
+; Delay:DL1|divider[13]                                  ; Merged with Delay:DL1|divider[8]       ;
+; Pulse:PL15|divider[1]                                  ; Merged with Pulse:PL15|divider[0]      ;
+; Delay:DL13|divider[13]                                 ; Merged with Delay:DL13|divider[8]      ;
+; Delay:DL10|divider[1]                                  ; Merged with Delay:DL10|divider[0]      ;
+; Delay:DL10|divider[6]                                  ; Merged with Delay:DL10|divider[5]      ;
+; Delay:DL9|divider[1]                                   ; Merged with Delay:DL9|divider[0]       ;
 ; Delay:DL9|divider[6]                                   ; Merged with Delay:DL9|divider[5]       ;
-; Pulse:PL4|divider[10]                                  ; Merged with Pulse:PL4|divider[7]       ;
-; Delay:DL3|divider[3]                                   ; Merged with Delay:DL3|divider[2]       ;
-; Delay:DL3|divider[11]                                  ; Merged with Delay:DL3|divider[8]       ;
+; Pulse:PL9|divider[1]                                   ; Merged with Pulse:PL9|divider[0]       ;
+; Delay:DL4|divider[6]                                   ; Merged with Delay:DL4|divider[5]       ;
+; Delay:DL3|divider[1]                                   ; Merged with Delay:DL3|divider[0]       ;
+; Delay:DL3|divider[6]                                   ; Merged with Delay:DL3|divider[5]       ;
+; Delay:DL2|divider[1]                                   ; Merged with Delay:DL2|divider[0]       ;
+; Delay:DL2|divider[6]                                   ; Merged with Delay:DL2|divider[5]       ;
 ; Delay:DL1|divider[6]                                   ; Merged with Delay:DL1|divider[5]       ;
-; Delay:DL2|divider[8]                                   ; Merged with Delay:DL2|divider[12]      ;
+; Pulse:PL1|divider[1]                                   ; Merged with Pulse:PL1|divider[0]       ;
+; Delay:DL1|divider[1]                                   ; Merged with Delay:DL1|divider[0]       ;
 ; Delay:DL16|divider[8]                                  ; Stuck at GND due to stuck port data_in ;
 ; Pulse:PL16|divider[0]                                  ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL15|divider[8]                                  ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL15|divider[1]                                  ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL15|divider[0]                                  ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL14|divider[8]                                  ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL14|divider[1]                                  ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL14|divider[0]                                  ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL13|divider[8]                                  ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL13|divider[1]                                  ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL13|divider[0]                                  ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL12|divider[8]                                  ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL12|divider[1]                                  ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL12|divider[0]                                  ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL11|divider[8]                                  ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL11|divider[1]                                  ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL11|divider[0]                                  ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL10|divider[8]                                  ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL10|divider[1]                                  ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL10|divider[0]                                  ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL9|divider[8]                                   ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL9|divider[1]                                   ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL9|divider[0]                                   ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL8|divider[8]                                   ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL8|divider[1]                                   ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL8|divider[0]                                   ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL7|divider[8]                                   ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL7|divider[1]                                   ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL7|divider[0]                                   ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL6|divider[8]                                   ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL6|divider[1]                                   ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL6|divider[0]                                   ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL5|divider[8]                                   ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL5|divider[1]                                   ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL5|divider[0]                                   ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL4|divider[8]                                   ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL4|divider[1]                                   ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL4|divider[0]                                   ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL3|divider[8]                                   ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL3|divider[1]                                   ; Stuck at GND due to stuck port data_in ;
-; Delay:DL2|divider[12]                                  ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL2|divider[1]                                   ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL3|divider[0]                                   ; Stuck at GND due to stuck port data_in ;
+; Delay:DL2|divider[8]                                   ; Stuck at GND due to stuck port data_in ;
+; Pulse:PL2|divider[0]                                   ; Stuck at GND due to stuck port data_in ;
 ; Delay:DL1|divider[8]                                   ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL1|divider[1]                                   ; Stuck at GND due to stuck port data_in ;
-; Pulse:PL16|div_cnt[0..34]                              ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 1063               ;                                        ;
+; Pulse:PL1|divider[0]                                   ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 1056               ;                                        ;
 +--------------------------------------------------------+----------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                 ;
-+-----------------------+---------------------------+-------------------------------------------------------------------------+
-; Register name         ; Reason for Removal        ; Registers Removed due to This Register                                  ;
-+-----------------------+---------------------------+-------------------------------------------------------------------------+
-; Pulse:PL16|divider[0] ; Stuck at GND              ; Pulse:PL16|div_cnt[0], Pulse:PL16|div_cnt[1], Pulse:PL16|div_cnt[2],    ;
-;                       ; due to stuck port data_in ; Pulse:PL16|div_cnt[3], Pulse:PL16|div_cnt[4], Pulse:PL16|div_cnt[5],    ;
-;                       ;                           ; Pulse:PL16|div_cnt[6], Pulse:PL16|div_cnt[7], Pulse:PL16|div_cnt[8],    ;
-;                       ;                           ; Pulse:PL16|div_cnt[9], Pulse:PL16|div_cnt[10], Pulse:PL16|div_cnt[11],  ;
-;                       ;                           ; Pulse:PL16|div_cnt[12], Pulse:PL16|div_cnt[13], Pulse:PL16|div_cnt[14], ;
-;                       ;                           ; Pulse:PL16|div_cnt[15], Pulse:PL16|div_cnt[16], Pulse:PL16|div_cnt[17], ;
-;                       ;                           ; Pulse:PL16|div_cnt[18], Pulse:PL16|div_cnt[19], Pulse:PL16|div_cnt[20], ;
-;                       ;                           ; Pulse:PL16|div_cnt[21], Pulse:PL16|div_cnt[22], Pulse:PL16|div_cnt[23], ;
-;                       ;                           ; Pulse:PL16|div_cnt[24], Pulse:PL16|div_cnt[25], Pulse:PL16|div_cnt[26], ;
-;                       ;                           ; Pulse:PL16|div_cnt[27], Pulse:PL16|div_cnt[28], Pulse:PL16|div_cnt[29], ;
-;                       ;                           ; Pulse:PL16|div_cnt[30], Pulse:PL16|div_cnt[31], Pulse:PL16|div_cnt[32], ;
-;                       ;                           ; Pulse:PL16|div_cnt[33], Pulse:PL16|div_cnt[34]                          ;
-+-----------------------+---------------------------+-------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -736,12 +789,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 3957  ;
-; Number of registers using Synchronous Clear  ; 2255  ;
+; Total registers                              ; 3974  ;
+; Number of registers using Synchronous Clear  ; 2290  ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 1424  ;
+; Number of registers using Clock Enable       ; 1401  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -751,11 +804,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; UART_Rx:comb_12|wr                     ; 6       ;
-; UART_Rx:comb_12|wr_addr[4]             ; 8       ;
-; UART_Rx:comb_12|wr_addr[0]             ; 72      ;
-; UART_Rx:comb_12|wr_addr[6]             ; 90      ;
-; UART_Rx:comb_12|wr_addr[5]             ; 35      ;
+; UART_Rx:comb_12|wr_addr[5]             ; 18      ;
+; UART_Rx:comb_12|wr                     ; 5       ;
+; UART_Rx:comb_12|wr_addr[4]             ; 7       ;
+; UART_Rx:comb_12|wr_addr[0]             ; 87      ;
+; UART_Rx:comb_12|wr_addr[6]             ; 87      ;
 ; Total number of inverted registers = 5 ;         ;
 +----------------------------------------+---------+
 
@@ -765,55 +818,56 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |main|UART_Rx:comb_12|wr_addr[7] ;
-; 4:1                ; 35 bits   ; 70 LEs        ; 35 LEs               ; 35 LEs                 ; Yes        ; |main|Pulse:PL1|cnt1[28]         ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |main|RAM:comb_13|DATA[0][7]     ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL1|divider[0]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL2|divider[0]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL3|divider[7]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL4|divider[0]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL5|divider[2]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL6|divider[2]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL7|divider[7]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL8|divider[0]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL9|divider[5]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL10|divider[7]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL11|divider[0]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL12|divider[2]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL13|divider[5]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL14|divider[5]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL15|divider[0]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL1|divider[2]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL2|divider[0]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL3|divider[2]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL4|divider[1]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL5|divider[0]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL6|divider[0]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL7|divider[1]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL8|divider[2]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL9|divider[2]       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL10|divider[0]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL11|divider[2]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL12|divider[2]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL13|divider[2]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL14|divider[5]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL15|divider[1]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL16|divider[5]      ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL2|cnt1[34]         ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL3|cnt1[30]         ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL4|cnt1[9]          ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL5|cnt1[34]         ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL6|cnt1[0]          ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |main|UART_Rx:comb_12|wr_addr[3] ;
+; 4:1                ; 35 bits   ; 70 LEs        ; 35 LEs               ; 35 LEs                 ; Yes        ; |main|Pulse:PL1|cnt1[18]         ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |main|RAM:comb_13|DATA[0][4]     ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL1|divider[7]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL2|divider[5]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL3|divider[5]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL4|divider[5]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL5|divider[2]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL6|divider[7]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL7|divider[7]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL8|divider[2]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL9|divider[5]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL10|divider[5]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL11|divider[2]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL12|divider[7]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL13|divider[5]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL14|divider[5]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL15|divider[5]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Pulse:PL16|divider[5]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL1|divider[0]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL2|divider[5]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL3|divider[2]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL4|divider[5]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL5|divider[5]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL6|divider[0]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL7|divider[0]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL8|divider[2]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL9|divider[5]       ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL10|divider[2]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL11|divider[2]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL12|divider[5]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL13|divider[2]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL14|divider[0]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL15|divider[0]      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |main|Delay:DL16|divider[5]      ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL2|cnt1[20]         ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL3|cnt1[18]         ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL4|cnt1[23]         ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL5|cnt1[26]         ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL6|cnt1[31]         ;
 ; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL7|cnt1[16]         ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL8|cnt1[17]         ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL9|cnt1[29]         ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL10|cnt1[15]        ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL11|cnt1[12]        ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL12|cnt1[22]        ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL13|cnt1[30]        ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL14|cnt1[24]        ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL15|cnt1[1]         ;
-; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL16|cnt1[8]         ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL8|cnt1[31]         ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL9|cnt1[5]          ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL10|cnt1[17]        ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL11|cnt1[6]         ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL12|cnt1[32]        ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL13|cnt1[28]        ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL14|cnt1[8]         ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL15|cnt1[33]        ;
+; 5:1                ; 35 bits   ; 105 LEs       ; 35 LEs               ; 70 LEs                 ; Yes        ; |main|Pulse:PL16|cnt1[17]        ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |main|UART_Rx:comb_12|wr_addr[6] ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
 
@@ -1561,26 +1615,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 20                          ;
-; cycloneiii_ff         ; 3957                        ;
-;     ENA               ; 864                         ;
+; cycloneiii_ff         ; 3974                        ;
+;     ENA               ; 841                         ;
 ;     ENA SCLR          ; 560                         ;
-;     SCLR              ; 1695                        ;
-;     plain             ; 838                         ;
-; cycloneiii_lcell_comb ; 5409                        ;
-;     arith             ; 2709                        ;
+;     SCLR              ; 1730                        ;
+;     plain             ; 843                         ;
+; cycloneiii_lcell_comb ; 5455                        ;
+;     arith             ; 2743                        ;
 ;         1 data inputs ; 16                          ;
-;         2 data inputs ; 2451                        ;
+;         2 data inputs ; 2485                        ;
 ;         3 data inputs ; 242                         ;
-;     normal            ; 2700                        ;
+;     normal            ; 2712                        ;
 ;         0 data inputs ; 16                          ;
-;         1 data inputs ; 82                          ;
+;         1 data inputs ; 67                          ;
 ;         2 data inputs ; 138                         ;
-;         3 data inputs ; 1121                        ;
-;         4 data inputs ; 1343                        ;
+;         3 data inputs ; 1229                        ;
+;         4 data inputs ; 1262                        ;
 ; cycloneiii_pll        ; 1                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 18.10                       ;
-; Average LUT depth     ; 4.40                        ;
+; Max LUT depth         ; 15.10                       ;
+; Average LUT depth     ; 4.35                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1599,7 +1653,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Feb 08 15:37:38 2021
+    Info: Processing started: Tue Feb 09 15:15:58 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Cyclone_OSG -c Cyclone_OSG
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1688,7 +1742,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/pll_
     Info (12023): Found entity 1: PLL_altpll File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/db/pll_altpll.v Line: 30
 Info (12128): Elaborating entity "PLL_altpll" for hierarchy "PLL:pll_inst|altpll:altpll_component|PLL_altpll:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
 Info (12128): Elaborating entity "Start" for hierarchy "Start:comb_11" File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/main.v Line: 181
-Warning (10036): Verilog HDL or VHDL warning at Start.v(7): object "cnt" assigned a value but never read File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/Start.v Line: 7
 Warning (12125): Using design file uart_rx.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: UART_Rx File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/uart_rx.v Line: 9
 Info (12128): Elaborating entity "UART_Rx" for hierarchy "UART_Rx:comb_12" File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/main.v Line: 184
@@ -1743,7 +1796,6 @@ Warning (10230): Verilog HDL assignment warning at RAM.v(227): truncated value w
 Warning (10230): Verilog HDL assignment warning at RAM.v(230): truncated value with size 8 to match size of target (5) File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/RAM.v Line: 230
 Warning (10230): Verilog HDL assignment warning at RAM.v(232): truncated value with size 8 to match size of target (5) File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/RAM.v Line: 232
 Warning (10230): Verilog HDL assignment warning at RAM.v(233): truncated value with size 8 to match size of target (4) File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/RAM.v Line: 233
-Warning (10034): Output port "Mult_PL16" at RAM.v(105) has no driver File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/RAM.v Line: 105
 Info (12128): Elaborating entity "Pulse" for hierarchy "Pulse:PL1" File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/main.v Line: 218
 Info (12128): Elaborating entity "Delay" for hierarchy "Delay:DL1" File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/main.v Line: 219
 Info (12128): Elaborating entity "DLST" for hierarchy "DLST:ST1" File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/main.v Line: 287
@@ -1772,16 +1824,16 @@ Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/output_files/Cyclone_OSG.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 6931 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 6956 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 17 output pins
-    Info (21061): Implemented 6910 logic cells
+    Info (21061): Implemented 6935 logic cells
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 82 warnings
-    Info: Peak virtual memory: 4849 megabytes
-    Info: Processing ended: Mon Feb 08 15:37:57 2021
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:30
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 80 warnings
+    Info: Peak virtual memory: 4854 megabytes
+    Info: Processing ended: Tue Feb 09 15:16:23 2021
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:29
 
 
 +------------------------------------------+

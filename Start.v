@@ -4,13 +4,12 @@ module Start (input st_clk, st_button, end_flg, PC_start,
 				  );
 
 
-reg [40:0] cnt;									// counter for anti bounce and MAX duration light pulse
-initial cnt <= 1'b0;
-
 initial st_o <= 1'b0;
+
 
 always @(posedge st_clk) begin
 	
+			
 			
 			if (PC_start == 1'b1) begin
 				st_o <= 1'b1;

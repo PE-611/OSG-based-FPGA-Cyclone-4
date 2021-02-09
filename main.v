@@ -178,7 +178,7 @@ assign d_src = {d[0], d[1], d[2], d[3], d[4], d[5], d[6], d[7]}; //for inversion
 
 PLL pll_inst (.inclk0(clk), .c0(CLK));	
 
-Start (.st_clk(clk), .st_button(button), .st_o(o), .end_flg(END_FLG), .PC_start(PC_START)); //.ready_to_start(READY_TO_START),
+Start (.st_clk(CLK), .st_button(button), .st_o(o), .end_flg(END_FLG), .PC_start(PC_START)); //.ready_to_start(READY_TO_START),
 
 
 UART_Rx (.clk_Rx(clk), .Rx_in(Rx), .data_out(d), .UART_clk(control_UART_clk), .wr(WRITE), .wr_addr(WR_ADDR), .re(READ));//, .PC_start(PC_START));
@@ -284,7 +284,7 @@ Pulse PL16 (.clk_Pulse(CLK), .duration(PL16_DRT), .PL_out(ex_16), .PL_start(o), 
 Delay DL16 (.clk_Delay(CLK), .delay(DL16_DEL), .DL_launch(PL16_LAUNCH_DL16),  .launch_PL(DL16_LAUNCH_PL17), .dl_mlt(MULT_DL16), .End_Flg (DIN)); // .DL_out(ex[]),
 
 
-DLST ST1(.clk_dlst(clk), .din(DIN), .dout(END_FLG));
+DLST ST1(.clk_dlst(CLK), .din(DIN), .dout(END_FLG));
 
 
 
