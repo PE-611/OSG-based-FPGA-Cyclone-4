@@ -3,8 +3,8 @@ module DLST (input clk_dlst, din,
 				  output reg dout 
 				 );
 				
-reg [34:0] cnt1;
-initial cnt1 <= 35'd0;
+reg [36:0] cnt1;
+initial cnt1 <= 1'b0;
 initial dout <= 1'b0;
 reg fld;
 initial fld <= 1'b0;
@@ -20,7 +20,7 @@ always @(posedge clk_dlst) begin
 			cnt1 <= cnt1 + 1'b1;
 		end
 		
-		if (cnt1 >= 24'd100000000) begin
+		if (cnt1 >= 36'd100000000) begin
 			cnt1 <= 1'b0;
 			fld <= 1'b0;
 			dout <= 1'b1;
