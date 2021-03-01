@@ -23,7 +23,8 @@ module main (input clk, Rx, button,
 				 output ex_13,
 				 output ex_14,
 				 output ex_15,
-				 output ex_16
+				 output ex_16,
+				 output control_UART_clk
 				 //output clk, DIV_clk//
 				 );
 
@@ -49,7 +50,7 @@ wire [16:0] PL2_DRT;
 wire PL2_LAUNCH_DL2;
 wire [16:0] DL2_DEL;
 wire DL2_LAUNCH_PL3;
-wire [7:0]CH2TS;
+wire [3:0]CH2TS;
 wire [4:0] MULT_PL2;
 wire [4:0] MULT_DL2;
 

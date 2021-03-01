@@ -3,75 +3,75 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -11.438
-TNS   : -23291.759
+Slack : -10.977
+TNS   : -23554.831
 
 Type  : Slow 1200mV 85C Model Setup 'UART_Rx:comb_12|UART_clk'
-Slack : -4.257
-TNS   : -54.777
+Slack : -0.245
+TNS   : -1.285
 
 Type  : Slow 1200mV 85C Model Hold 'clk'
 Slack : 0.431
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'UART_Rx:comb_12|UART_clk'
-Slack : 0.452
+Slack : 0.550
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -5073.670
+TNS   : -5137.611
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_Rx:comb_12|UART_clk'
 Slack : -1.487
-TNS   : -32.714
+TNS   : -11.896
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -10.723
-TNS   : -21688.790
+Slack : -10.272
+TNS   : -21955.844
 
 Type  : Slow 1200mV 0C Model Setup 'UART_Rx:comb_12|UART_clk'
-Slack : -3.986
-TNS   : -50.023
+Slack : -0.158
+TNS   : -0.660
 
 Type  : Slow 1200mV 0C Model Hold 'clk'
 Slack : 0.381
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'UART_Rx:comb_12|UART_clk'
-Slack : 0.401
+Slack : 0.514
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -5073.670
+TNS   : -5137.611
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_Rx:comb_12|UART_clk'
 Slack : -1.487
-TNS   : -32.714
+TNS   : -11.896
 
 Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -4.225
-TNS   : -8040.453
+Slack : -4.026
+TNS   : -8107.225
 
 Type  : Fast 1200mV 0C Model Setup 'UART_Rx:comb_12|UART_clk'
-Slack : -1.379
-TNS   : -14.518
+Slack : 0.439
+TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk'
 Slack : 0.177
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'UART_Rx:comb_12|UART_clk'
-Slack : 0.186
+Slack : 0.217
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -3654.035
+TNS   : -3701.547
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_Rx:comb_12|UART_clk'
 Slack : -1.000
-TNS   : -22.000
+TNS   : -8.000
 
 ------------------------------------------------------------

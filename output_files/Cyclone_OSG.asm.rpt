@@ -1,5 +1,5 @@
 Assembler report for Cyclone_OSG
-Thu Feb 11 14:46:57 2021
+Mon Mar 01 12:54:15 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/output_files/Cyclone_OSG.sof
+  5. Assembler Device Options: C:/intelFPGA_lite/18.1/Projects/OSG-based-FPGA-Cyclone-4-main/output_files/Cyclone_OSG.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Feb 11 14:46:57 2021 ;
+; Assembler Status      ; Successful - Mon Mar 01 12:54:15 2021 ;
 ; Revision Name         ; Cyclone_OSG                           ;
 ; Top-level Entity Name ; main                                  ;
 ; Family                ; Cyclone IV E                          ;
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+--------------------------------------------------------------------------+
-; Assembler Generated Files                                                ;
-+--------------------------------------------------------------------------+
-; File Name                                                                ;
-+--------------------------------------------------------------------------+
-; C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/output_files/Cyclone_OSG.sof ;
-+--------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                  ;
++--------------------------------------------------------------------------------------------+
+; File Name                                                                                  ;
++--------------------------------------------------------------------------------------------+
+; C:/intelFPGA_lite/18.1/Projects/OSG-based-FPGA-Cyclone-4-main/output_files/Cyclone_OSG.sof ;
++--------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/output_files/Cyclone_OSG.sof ;
-+----------------+-----------------------------------------------------------------------------------+
-; Option         ; Setting                                                                           ;
-+----------------+-----------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x003B5589                                                                        ;
-; Checksum       ; 0x003B5589                                                                        ;
-+----------------+-----------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/intelFPGA_lite/18.1/Projects/OSG-based-FPGA-Cyclone-4-main/output_files/Cyclone_OSG.sof ;
++----------------+-----------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                             ;
++----------------+-----------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x003BA579                                                                                          ;
+; Checksum       ; 0x003BA579                                                                                          ;
++----------------+-----------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -77,15 +77,17 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Feb 11 14:46:56 2021
+    Info: Processing started: Mon Mar 01 12:54:14 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Cyclone_OSG -c Cyclone_OSG
+Warning (125092): Tcl Script File PLL.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE PLL.qip
 Warning (125092): Tcl Script File MLT.qip not found
     Info (125063): set_global_assignment -name QIP_FILE MLT.qip
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
-Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+Info: Quartus Prime Assembler was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 4691 megabytes
-    Info: Processing ended: Thu Feb 11 14:46:57 2021
+    Info: Processing ended: Mon Mar 01 12:54:15 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

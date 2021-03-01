@@ -154,7 +154,7 @@ RESERVED_INPUT               : 83        :        :                   :         
 RESERVED_INPUT               : 84        :        :                   :         : 5         :                
 RESERVED_INPUT               : 85        :        :                   :         : 5         :                
 RESERVED_INPUT               : 86        :        :                   :         : 5         :                
-RESERVED_INPUT               : 87        :        :                   :         : 5         :                
+control_UART_clk             : 87        : output : 2.5 V             :         : 5         : N              
 clk                          : 88        : input  : 2.5 V             :         : 5         : Y              
 GND+                         : 89        :        :                   :         : 5         :                
 GND+                         : 90        :        :                   :         : 6         :                

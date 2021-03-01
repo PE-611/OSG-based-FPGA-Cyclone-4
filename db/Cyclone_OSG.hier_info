@@ -19,6 +19,7 @@ ex_13 << Pulse:PL13.PL_out
 ex_14 << Pulse:PL14.PL_out
 ex_15 << Pulse:PL15.PL_out
 ex_16 << Pulse:PL16.PL_out
+control_UART_clk << UART_Rx:comb_12.UART_clk
 
 
 |main|Start:comb_11
@@ -30,7 +31,37 @@ st_o <= st_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |main|UART_Rx:comb_12
+clk_Rx => wr_addr[0]~reg0.CLK
+clk_Rx => wr_addr[1]~reg0.CLK
+clk_Rx => wr_addr[2]~reg0.CLK
+clk_Rx => wr_addr[3]~reg0.CLK
+clk_Rx => wr_addr[4]~reg0.CLK
+clk_Rx => wr_addr[5]~reg0.CLK
+clk_Rx => wr_addr[6]~reg0.CLK
+clk_Rx => wr_addr[7]~reg0.CLK
+clk_Rx => reset.CLK
 clk_Rx => UART_clk~reg0.CLK
+clk_Rx => cnt_res[0].CLK
+clk_Rx => cnt_res[1].CLK
+clk_Rx => cnt_res[2].CLK
+clk_Rx => cnt_res[3].CLK
+clk_Rx => cnt_res[4].CLK
+clk_Rx => cnt_res[5].CLK
+clk_Rx => cnt_res[6].CLK
+clk_Rx => cnt_res[7].CLK
+clk_Rx => cnt_res[8].CLK
+clk_Rx => cnt_res[9].CLK
+clk_Rx => cnt_res[10].CLK
+clk_Rx => cnt_res[11].CLK
+clk_Rx => cnt_res[12].CLK
+clk_Rx => cnt_res[13].CLK
+clk_Rx => cnt_res[14].CLK
+clk_Rx => cnt_res[15].CLK
+clk_Rx => cnt_res[16].CLK
+clk_Rx => cnt_res[17].CLK
+clk_Rx => cnt_res[18].CLK
+clk_Rx => cnt_res[19].CLK
+clk_Rx => cnt_res[20].CLK
 clk_Rx => cnt[0].CLK
 clk_Rx => cnt[1].CLK
 clk_Rx => cnt[2].CLK
@@ -44,13 +75,24 @@ clk_Rx => cnt[9].CLK
 clk_Rx => cnt[10].CLK
 clk_Rx => cnt[11].CLK
 clk_Rx => cnt[12].CLK
-clk_Rx => cnt[13].CLK
-clk_Rx => cnt[14].CLK
-clk_Rx => cnt[15].CLK
-Rx_in => l.OUTPUTSELECT
-Rx_in => wr.OUTPUTSELECT
-Rx_in => re.OUTPUTSELECT
+clk_Rx => receive_flg.CLK
+clk_Rx => cnt_st[0].CLK
+clk_Rx => cnt_st[1].CLK
+clk_Rx => cnt_st[2].CLK
+clk_Rx => cnt_st[3].CLK
+clk_Rx => cnt_st[4].CLK
+clk_Rx => cnt_st[5].CLK
+clk_Rx => cnt_st[6].CLK
+clk_Rx => cnt_st[7].CLK
+clk_Rx => cnt_st[8].CLK
+clk_Rx => cnt_st[9].CLK
+clk_Rx => cnt_st[10].CLK
+clk_Rx => cnt_st[11].CLK
+clk_Rx => cnt_st[12].CLK
+clk_Rx => wr~reg0.CLK
+clk_Rx => Rx_enable.CLK
 Rx_in => data_out[0]~reg0.DATAIN
+Rx_in => always0.IN1
 data_out[0] <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 data_out[1] <= data_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 data_out[2] <= data_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -69,7 +111,7 @@ wr_addr[4] <= wr_addr[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 wr_addr[5] <= wr_addr[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 wr_addr[6] <= wr_addr[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 wr_addr[7] <= wr_addr[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-re <= re~reg0.DB_MAX_OUTPUT_PORT_TYPE
+re <= <VCC>
 
 
 |main|RAM:comb_13

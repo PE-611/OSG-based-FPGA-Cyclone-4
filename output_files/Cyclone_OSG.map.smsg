@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at RAM.v(126): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/RAM.v Line: 126
+Warning (10268): Verilog HDL information at uart_rx.v(48): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/18.1/Projects/OSG-based-FPGA-Cyclone-4-main/uart_rx.v Line: 48

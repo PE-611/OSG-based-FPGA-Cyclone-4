@@ -72,6 +72,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "control_UART_clk",
+					"strict" : false
+				},
+				{
 					"name" : "button",
 					"strict" : false
 				},

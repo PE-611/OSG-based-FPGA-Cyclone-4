@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE6E22) Path("C:/intelFPGA_lite/18.1/Projects/Cyclone_OSG/output_files/") File("Cyclone_OSG.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE6E22) Path("C:/intelFPGA_lite/18.1/Projects/OSG-based-FPGA-Cyclone-4-main/output_files/") File("Cyclone_OSG.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
