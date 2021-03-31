@@ -76,6 +76,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "ellight",
+					"strict" : false
+				},
+				{
 					"name" : "button",
 					"strict" : false
 				},

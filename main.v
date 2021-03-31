@@ -6,7 +6,7 @@
 // Start design : 20.10.2020 										//
 // Last revision : 28.10.2020 									//
 ///////////////////////////////////////////////////////////
-module main (input clk, Rx, button,
+module main (input clk, Rx, button, ellight,
 				 output o,						// STUFF 
 				 output ex_1,
 				 output ex_2,
@@ -32,140 +32,156 @@ module main (input clk, Rx, button,
 
 				 
 wire PC_START;
-wire END_FLG;		
+
+wire END_FLG1;		
+wire END_FLG2;	
+wire END_FLG3;	
+wire END_FLG4;	
+wire END_FLG5;	
+wire END_FLG6;	
+wire END_FLG7;	
+wire END_FLG8;	
+wire END_FLG9;	
+wire END_FLG10;	
+wire END_FLG11;	
+wire END_FLG12;	
+wire END_FLG13;	
+wire END_FLG14;	
+wire END_FLG15;	
+wire END_FLG16;	
+
 wire DIN;
 wire [7:0] WR_ADDR;								// address for WRITE in RAM
 wire WRITE;											// Write flag readiness byte to write on memory 	
 wire READ;
 			 
-wire [16:0] PL1_DRT;								
+wire [15:0] PL1_DRT;								
 wire PL1_LAUNCH_DL1;
-wire [16:0] DL1_DEL;
+wire [15:0] DL1_DEL;
 wire DL1_LAUNCH_PL2;
 wire [3:0] CH1TS;
 wire [4:0] MULT_PL1;
 wire [4:0] MULT_DL1;
 
-wire [16:0] PL2_DRT;									
+wire [15:0] PL2_DRT;									
 wire PL2_LAUNCH_DL2;
-wire [16:0] DL2_DEL;
+wire [15:0] DL2_DEL;
 wire DL2_LAUNCH_PL3;
 wire [3:0]CH2TS;
 wire [4:0] MULT_PL2;
 wire [4:0] MULT_DL2;
 
-wire [16:0] PL3_DRT;								
+wire [15:0] PL3_DRT;								
 wire PL3_LAUNCH_DL3;
-wire [16:0] DL3_DEL;
+wire [15:0] DL3_DEL;
 wire DL3_LAUNCH_PL4;
 wire [3:0]CH3TS;
 wire [4:0] MULT_PL3;
 wire [4:0] MULT_DL3;
 
-wire [16:0] PL4_DRT;								
+wire [15:0] PL4_DRT;								
 wire PL4_LAUNCH_DL4;
-wire [16:0] DL4_DEL;
+wire [15:0] DL4_DEL;
 wire DL4_LAUNCH_PL5;
 wire [3:0]CH4TS;
 wire [4:0] MULT_PL4;
 wire [4:0] MULT_DL4;
 
-wire [16:0] PL5_DRT;								
+wire [15:0] PL5_DRT;								
 wire PL5_LAUNCH_DL5;
-wire [16:0] DL5_DEL;
+wire [15:0] DL5_DEL;
 wire DL5_LAUNCH_PL6;
 wire [3:0]CH5TS;
 wire [4:0] MULT_PL5;
 wire [4:0] MULT_DL5;
 
-wire [16:0] PL6_DRT;								
+wire [15:0] PL6_DRT;								
 wire PL6_LAUNCH_DL6;
-wire [16:0] DL6_DEL;
+wire [15:0] DL6_DEL;
 wire DL6_LAUNCH_PL7;
 wire [3:0]CH6TS;
 wire [4:0] MULT_PL6;
 wire [4:0] MULT_DL6;
 
-wire [16:0] PL7_DRT;								
+wire [15:0] PL7_DRT;								
 wire PL7_LAUNCH_DL7;
-wire [16:0] DL7_DEL;
+wire [15:0] DL7_DEL;
 wire DL7_LAUNCH_PL8;
 wire [3:0]CH7TS;
 wire [4:0] MULT_PL7;
 wire [4:0] MULT_DL7;
 
-wire [16:0] PL8_DRT;								
+wire [15:0] PL8_DRT;								
 wire PL8_LAUNCH_DL8;
-wire [16:0] DL8_DEL;
+wire [15:0] DL8_DEL;
 wire DL8_LAUNCH_PL9;
 wire [3:0]CH8TS;
 wire [4:0] MULT_PL8;
 wire [4:0] MULT_DL8;
 
-wire [16:0] PL9_DRT;								
+wire [15:0] PL9_DRT;								
 wire PL9_LAUNCH_DL9;
-wire [16:0] DL9_DEL;
+wire [15:0] DL9_DEL;
 wire DL9_LAUNCH_PL10;
 wire [3:0]CH9TS;
 wire [4:0] MULT_PL9;
 wire [4:0] MULT_DL9;
 
-wire [16:0] PL10_DRT;									
+wire [15:0] PL10_DRT;									
 wire PL10_LAUNCH_DL10;
-wire [16:0] DL10_DEL;
+wire [15:0] DL10_DEL;
 wire DL10_LAUNCH_PL11;
 wire [3:0]CH10TS;
 wire [4:0] MULT_PL10;
 wire [4:0] MULT_DL10;
 
-wire [16:0] PL11_DRT;								
+wire [15:0] PL11_DRT;								
 wire PL11_LAUNCH_DL11;
-wire [16:0] DL11_DEL;
+wire [15:0] DL11_DEL;
 wire DL11_LAUNCH_PL12;
 wire [3:0]CH11TS;
 wire [4:0] MULT_PL11;
 wire [4:0] MULT_DL11;
 
-wire [16:0] PL12_DRT;								
+wire [15:0] PL12_DRT;								
 wire PL12_LAUNCH_DL12;
-wire [16:0] DL12_DEL;
+wire [15:0] DL12_DEL;
 wire DL12_LAUNCH_PL13;
 wire [3:0]CH12TS;
 wire [4:0] MULT_PL12;
 wire [4:0] MULT_DL12;
 
-wire [16:0] PL13_DRT;								
+wire [15:0] PL13_DRT;								
 wire PL13_LAUNCH_DL13;
-wire [16:0] DL13_DEL;
+wire [15:0] DL13_DEL;
 wire DL13_LAUNCH_PL14;
 wire [3:0]CH13TS;
 wire [4:0] MULT_PL13;
 wire [4:0] MULT_DL13;
 
-wire [16:0] PL14_DRT;								
+wire [15:0] PL14_DRT;								
 wire PL14_LAUNCH_DL14;
-wire [16:0] DL14_DEL;
+wire [15:0] DL14_DEL;
 wire DL14_LAUNCH_PL15;
 wire [3:0]CH14TS;
 wire [4:0] MULT_PL14;
 wire [4:0] MULT_DL14;
 
-wire [16:0] PL15_DRT;								
+wire [15:0] PL15_DRT;								
 wire PL15_LAUNCH_DL15;
-wire [16:0] DL15_DEL;
+wire [15:0] DL15_DEL;
 wire DL15_LAUNCH_PL16;
 wire [3:0]CH15TS;
 wire [4:0] MULT_PL15;
 wire [4:0] MULT_DL15;
 
-wire [16:0] PL16_DRT;								
+wire [15:0] PL16_DRT;								
 wire PL16_LAUNCH_DL16;
-wire [16:0] DL16_DEL;
+wire [15:0] DL16_DEL;
 wire DL16_LAUNCH_PL17;
 wire [3:0]CH16TS;
 wire [4:0] MULT_PL16;
 wire [4:0] MULT_DL16;
-
 
 
 //wire [7:0] data_from_RAM;
@@ -176,7 +192,10 @@ assign d_src = {d[0], d[1], d[2], d[3], d[4], d[5], d[6], d[7]}; //for inversion
 
 
 
-Start (.st_clk(clk), .st_button(button), .st_o(o), .end_flg(END_FLG), .PC_start(PC_START)); //.ready_to_start(READY_TO_START),
+Start (.st_clk(clk), .st_button(button), .st_o(o), .PC_start(PC_START), .st_ellight(ellight), .end_flg1(END_FLG1),
+.end_flg2(END_FLG2), .end_flg3(END_FLG3), .end_flg4(END_FLG4), .end_flg5(END_FLG5), .end_flg6(END_FLG6), .end_flg7(END_FLG7),
+.end_flg8(END_FLG8), .end_flg9(END_FLG9), .end_flg10(END_FLG10), .end_flg11(END_FLG11), .end_flg12(END_FLG12), .end_flg13(END_FLG13),
+.end_flg14(END_FLG14), .end_flg15(END_FLG15), .end_flg16(END_FLG16)); //.ready_to_start(READY_TO_START),
 
 
 UART_Rx (.clk_Rx(clk), .Rx_in(Rx), .data_out(d), .UART_clk(control_UART_clk), .wr(WRITE), .wr_addr(WR_ADDR), .re(READ));//, .PC_start(PC_START));
@@ -213,76 +232,80 @@ RAM (.in(d_src), .clk_RAM(clk), .write(WRITE), .w_addr(WR_ADDR), .pc_start(PC_ST
 
 
 
-Pulse PL1 (.clk_Pulse(clk), .duration(PL1_DRT), .PL_out(ex_1), .PL_start(o), .launch_DL(PL1_LAUNCH_DL1), .CHTS(CH1TS), .pl_mlt(MULT_PL1));
-Delay DL1 (.clk_Delay(clk), .delay(DL1_DEL), .DL_launch(PL1_LAUNCH_DL1), .launch_PL(DL1_LAUNCH_PL2), .dl_mlt(MULT_DL1));  // .DL_out(ex[]), 
+Pulse PL1 (.clk_Pulse(clk), .duration(PL1_DRT),  .PL_start(o), .launch_DL(PL1_LAUNCH_DL1), .CHTS(CH1TS), .pl_mlt(MULT_PL1));// .PL_out(ex_1),
+Delay DL1 (.clk_Delay(clk), .delay(DL1_DEL), .DL_launch(PL1_LAUNCH_DL1), .launch_PL(DL1_LAUNCH_PL2), .DL_out(ex_1),  .dl_mlt(MULT_DL1), .End_Flg (END_FLG1));  // 
 
 
 
-Pulse PL2 (.clk_Pulse(clk), .duration(PL2_DRT), .PL_out(ex_2), .PL_start(o), .PL_launch(DL1_LAUNCH_PL2),  .launch_DL(PL2_LAUNCH_DL2), .CHTS(CH2TS), .pl_mlt(MULT_PL2));
-Delay DL2 (.clk_Delay(clk), .delay(DL2_DEL), .DL_launch(PL2_LAUNCH_DL2),  .launch_PL(DL2_LAUNCH_PL3), .dl_mlt(MULT_DL2)); // .DL_out(ex[]),
+Pulse PL2 (.clk_Pulse(clk), .duration(PL2_DRT),  .PL_start(o), .PL_launch(DL1_LAUNCH_PL2),  .launch_DL(PL2_LAUNCH_DL2), .CHTS(CH2TS), .pl_mlt(MULT_PL2));// .PL_out(ex_2),
+Delay DL2 (.clk_Delay(clk), .delay(DL2_DEL), .DL_launch(PL2_LAUNCH_DL2),  .launch_PL(DL2_LAUNCH_PL3), .DL_out(ex_2), .dl_mlt(MULT_DL2), .End_Flg (END_FLG2)); // 
 
 
 
-Pulse PL3 (.clk_Pulse(clk), .duration(PL3_DRT), .PL_out(ex_3), .PL_start(o), .PL_launch(DL2_LAUNCH_PL3),  .launch_DL(PL3_LAUNCH_DL3), .CHTS(CH3TS), .pl_mlt(MULT_PL3));
-Delay DL3 (.clk_Delay(clk), .delay(DL3_DEL), .DL_launch(PL3_LAUNCH_DL3),  .launch_PL(DL3_LAUNCH_PL4), .dl_mlt(MULT_DL3)); // .DL_out(ex[]),
+Pulse PL3 (.clk_Pulse(clk), .duration(PL3_DRT), .PL_start(o), .PL_launch(DL2_LAUNCH_PL3),  .launch_DL(PL3_LAUNCH_DL3), .CHTS(CH3TS), .pl_mlt(MULT_PL3));// .PL_out(ex_3)
+Delay DL3 (.clk_Delay(clk), .delay(DL3_DEL), .DL_launch(PL3_LAUNCH_DL3),  .launch_PL(DL3_LAUNCH_PL4), .DL_out(ex_3), .dl_mlt(MULT_DL3), .End_Flg (END_FLG3)); // 
 
 
-Pulse PL4 (.clk_Pulse(clk), .duration(PL4_DRT), .PL_out(ex_4), .PL_start(o), .PL_launch(DL3_LAUNCH_PL4),  .launch_DL(PL4_LAUNCH_DL4), .CHTS(CH4TS), .pl_mlt(MULT_PL4));
-Delay DL4 (.clk_Delay(clk), .delay(DL4_DEL), .DL_launch(PL4_LAUNCH_DL4),  .launch_PL(DL4_LAUNCH_PL5), .dl_mlt(MULT_DL4)); // .DL_out(ex[]),
-
-
-
-Pulse PL5 (.clk_Pulse(clk), .duration(PL5_DRT), .PL_out(ex_5), .PL_start(o), .PL_launch(DL4_LAUNCH_PL5),  .launch_DL(PL5_LAUNCH_DL5), .CHTS(CH5TS), .pl_mlt(MULT_PL5));
-Delay DL5 (.clk_Delay(clk), .delay(DL5_DEL), .DL_launch(PL5_LAUNCH_DL5),  .launch_PL(DL5_LAUNCH_PL6), .dl_mlt(MULT_DL5)); // .DL_out(ex[]),
+Pulse PL4 (.clk_Pulse(clk), .duration(PL4_DRT),  .PL_start(o), .PL_launch(DL3_LAUNCH_PL4),  .launch_DL(PL4_LAUNCH_DL4), .CHTS(CH4TS), .pl_mlt(MULT_PL4));// .PL_out(ex_4),
+Delay DL4 (.clk_Delay(clk), .delay(DL4_DEL), .DL_launch(PL4_LAUNCH_DL4),  .launch_PL(DL4_LAUNCH_PL5), .DL_out(ex_4), .dl_mlt(MULT_DL4), .End_Flg (END_FLG4)); // 
 
 
 
-Pulse PL6 (.clk_Pulse(clk), .duration(PL6_DRT), .PL_out(ex_6), .PL_start(o), .PL_launch(DL5_LAUNCH_PL6),  .launch_DL(PL6_LAUNCH_DL6), .CHTS(CH6TS), .pl_mlt(MULT_PL6));
-Delay DL6 (.clk_Delay(clk), .delay(DL6_DEL), .DL_launch(PL6_LAUNCH_DL6),  .launch_PL(DL6_LAUNCH_PL7), .dl_mlt(MULT_DL6)); // .DL_out(ex[]),
+Pulse PL5 (.clk_Pulse(clk), .duration(PL5_DRT),  .PL_start(o), .PL_launch(DL4_LAUNCH_PL5),  .launch_DL(PL5_LAUNCH_DL5), .CHTS(CH5TS), .pl_mlt(MULT_PL5));// .PL_out(ex_5),
+Delay DL5 (.clk_Delay(clk), .delay(DL5_DEL), .DL_launch(PL5_LAUNCH_DL5),  .launch_PL(DL5_LAUNCH_PL6), .DL_out(ex_5), .dl_mlt(MULT_DL5), .End_Flg (END_FLG5)); // 
 
 
 
-Pulse PL7 (.clk_Pulse(clk), .duration(PL7_DRT), .PL_out(ex_7), .PL_start(o), .PL_launch(DL6_LAUNCH_PL7),  .launch_DL(PL7_LAUNCH_DL7), .CHTS(CH7TS), .pl_mlt(MULT_PL7));
-Delay DL7 (.clk_Delay(clk), .delay(DL7_DEL), .DL_launch(PL7_LAUNCH_DL7),  .launch_PL(DL7_LAUNCH_PL8), .dl_mlt(MULT_DL7)); // .DL_out(ex[]),
+Pulse PL6 (.clk_Pulse(clk), .duration(PL6_DRT),  .PL_start(o), .PL_launch(DL5_LAUNCH_PL6),  .launch_DL(PL6_LAUNCH_DL6), .CHTS(CH6TS), .pl_mlt(MULT_PL6));// .PL_out(ex_6),
+Delay DL6 (.clk_Delay(clk), .delay(DL6_DEL), .DL_launch(PL6_LAUNCH_DL6),  .launch_PL(DL6_LAUNCH_PL7), .DL_out(ex_6), .dl_mlt(MULT_DL6), .End_Flg (END_FLG6)); // 
 
 
 
-Pulse PL8 (.clk_Pulse(clk), .duration(PL8_DRT), .PL_out(ex_8), .PL_start(o), .PL_launch(DL7_LAUNCH_PL8),  .launch_DL(PL8_LAUNCH_DL8), .CHTS(CH8TS), .pl_mlt(MULT_PL8));
-Delay DL8 (.clk_Delay(clk), .delay(DL8_DEL), .DL_launch(PL8_LAUNCH_DL8),  .launch_PL(DL8_LAUNCH_PL9), .dl_mlt(MULT_DL8)); // .DL_out(ex[]),
+Pulse PL7 (.clk_Pulse(clk), .duration(PL7_DRT),  .PL_start(o), .PL_launch(DL6_LAUNCH_PL7),  .launch_DL(PL7_LAUNCH_DL7), .CHTS(CH7TS), .pl_mlt(MULT_PL7));// .PL_out(ex_7),
+Delay DL7 (.clk_Delay(clk), .delay(DL7_DEL), .DL_launch(PL7_LAUNCH_DL7),  .launch_PL(DL7_LAUNCH_PL8), .DL_out(ex_7), .dl_mlt(MULT_DL7), .End_Flg (END_FLG7)); // 
 
 
-Pulse PL9 (.clk_Pulse(clk), .duration(PL9_DRT), .PL_out(ex_9), .PL_start(o), .PL_launch(DL8_LAUNCH_PL9),  .launch_DL(PL9_LAUNCH_DL9), .CHTS(CH9TS), .pl_mlt(MULT_PL9));
-Delay DL9 (.clk_Delay(clk), .delay(DL9_DEL), .DL_launch(PL9_LAUNCH_DL9),  .launch_PL(DL9_LAUNCH_PL10), .dl_mlt(MULT_DL9)); // .DL_out(ex[]),
+
+Pulse PL8 (.clk_Pulse(clk), .duration(PL8_DRT),  .PL_start(o), .PL_launch(DL7_LAUNCH_PL8),  .launch_DL(PL8_LAUNCH_DL8), .CHTS(CH8TS), .pl_mlt(MULT_PL8));// .PL_out(ex_8),
+Delay DL8 (.clk_Delay(clk), .delay(DL8_DEL), .DL_launch(PL8_LAUNCH_DL8),  .launch_PL(DL8_LAUNCH_PL9), .DL_out(ex_8), .dl_mlt(MULT_DL8), .End_Flg (END_FLG8)); // 
 
 
-Pulse PL10 (.clk_Pulse(clk), .duration(PL10_DRT), .PL_out(ex_10), .PL_start(o), .PL_launch(DL9_LAUNCH_PL10),  .launch_DL(PL10_LAUNCH_DL10), .CHTS(CH10TS), .pl_mlt(MULT_PL10));
-Delay DL10 (.clk_Delay(clk), .delay(DL10_DEL), .DL_launch(PL10_LAUNCH_DL10),  .launch_PL(DL10_LAUNCH_PL11), .dl_mlt(MULT_DL10)); // .DL_out(ex[]),
+Pulse PL9 (.clk_Pulse(clk), .duration(PL9_DRT),  .PL_start(o), .PL_launch(DL8_LAUNCH_PL9),  .launch_DL(PL9_LAUNCH_DL9), .CHTS(CH9TS), .pl_mlt(MULT_PL9));// .PL_out(ex_9),
+Delay DL9 (.clk_Delay(clk), .delay(DL9_DEL), .DL_launch(PL9_LAUNCH_DL9),  .launch_PL(DL9_LAUNCH_PL10), .DL_out(ex_9), .dl_mlt(MULT_DL9), .End_Flg (END_FLG9)); // 
 
 
-Pulse PL11 (.clk_Pulse(clk), .duration(PL11_DRT), .PL_out(ex_11), .PL_start(o), .PL_launch(DL10_LAUNCH_PL11),  .launch_DL(PL11_LAUNCH_DL11), .CHTS(CH11TS), .pl_mlt(MULT_PL11));
-Delay DL11 (.clk_Delay(clk), .delay(DL11_DEL), .DL_launch(PL11_LAUNCH_DL11),  .launch_PL(DL11_LAUNCH_PL12), .dl_mlt(MULT_DL11)); // .DL_out(ex[]),
+Pulse PL10 (.clk_Pulse(clk), .duration(PL10_DRT),  .PL_start(o), .PL_launch(DL9_LAUNCH_PL10),  .launch_DL(PL10_LAUNCH_DL10), .CHTS(CH10TS), .pl_mlt(MULT_PL10));// .PL_out(ex_10),
+Delay DL10 (.clk_Delay(clk), .delay(DL10_DEL), .DL_launch(PL10_LAUNCH_DL10),  .launch_PL(DL10_LAUNCH_PL11), .DL_out(ex_10), .dl_mlt(MULT_DL10), .End_Flg (END_FLG10)); // 
 
 
-Pulse PL12 (.clk_Pulse(clk), .duration(PL12_DRT), .PL_out(ex_12), .PL_start(o), .PL_launch(DL11_LAUNCH_PL12),  .launch_DL(PL12_LAUNCH_DL12), .CHTS(CH12TS), .pl_mlt(MULT_PL12));
-Delay DL12 (.clk_Delay(clk), .delay(DL12_DEL), .DL_launch(PL12_LAUNCH_DL12),  .launch_PL(DL12_LAUNCH_PL13), .dl_mlt(MULT_DL12)); // .DL_out(ex[]),
-
-Pulse PL13 (.clk_Pulse(clk), .duration(PL13_DRT), .PL_out(ex_13), .PL_start(o), .PL_launch(DL12_LAUNCH_PL13),  .launch_DL(PL13_LAUNCH_DL13), .CHTS(CH13TS), .pl_mlt(MULT_PL13));
-Delay DL13 (.clk_Delay(clk), .delay(DL13_DEL), .DL_launch(PL13_LAUNCH_DL13),  .launch_PL(DL13_LAUNCH_PL14), .dl_mlt(MULT_DL13)); // .DL_out(ex[]),
+Pulse PL11 (.clk_Pulse(clk), .duration(PL11_DRT),  .PL_start(o), .PL_launch(DL10_LAUNCH_PL11),  .launch_DL(PL11_LAUNCH_DL11), .CHTS(CH11TS), .pl_mlt(MULT_PL11));// .PL_out(ex_11),
+Delay DL11 (.clk_Delay(clk), .delay(DL11_DEL), .DL_launch(PL11_LAUNCH_DL11),  .launch_PL(DL11_LAUNCH_PL12), .DL_out(ex_11), .dl_mlt(MULT_DL11), .End_Flg (END_FLG11)); // 
 
 
-Pulse PL14 (.clk_Pulse(clk), .duration(PL14_DRT), .PL_out(ex_14), .PL_start(o), .PL_launch(DL13_LAUNCH_PL14),  .launch_DL(PL14_LAUNCH_DL14), .CHTS(CH14TS), .pl_mlt(MULT_PL14));
-Delay DL14 (.clk_Delay(clk), .delay(DL14_DEL), .DL_launch(PL14_LAUNCH_DL14),  .launch_PL(DL14_LAUNCH_PL15), .dl_mlt(MULT_DL14)); // .DL_out(ex[]),
+Pulse PL12 (.clk_Pulse(clk), .duration(PL12_DRT), .PL_start(o), .PL_launch(DL11_LAUNCH_PL12),  .launch_DL(PL12_LAUNCH_DL12), .CHTS(CH12TS), .pl_mlt(MULT_PL12));// .PL_out(ex_12), 
+Delay DL12 (.clk_Delay(clk), .delay(DL12_DEL), .DL_launch(PL12_LAUNCH_DL12),  .launch_PL(DL12_LAUNCH_PL13), .DL_out(ex_12), .dl_mlt(MULT_DL12), .End_Flg (END_FLG12)); // 
+
+Pulse PL13 (.clk_Pulse(clk), .duration(PL13_DRT),  .PL_start(o), .PL_launch(DL12_LAUNCH_PL13),  .launch_DL(PL13_LAUNCH_DL13), .CHTS(CH13TS), .pl_mlt(MULT_PL13));// .PL_out(ex_13),
+Delay DL13 (.clk_Delay(clk), .delay(DL13_DEL), .DL_launch(PL13_LAUNCH_DL13),  .launch_PL(DL13_LAUNCH_PL14), .DL_out(ex_13), .dl_mlt(MULT_DL13), .End_Flg (END_FLG13)); // 
 
 
-Pulse PL15 (.clk_Pulse(clk), .duration(PL15_DRT), .PL_out(ex_15), .PL_start(o), .PL_launch(DL14_LAUNCH_PL15),  .launch_DL(PL15_LAUNCH_DL15), .CHTS(CH15TS), .pl_mlt(MULT_PL15));
-Delay DL15 (.clk_Delay(clk), .delay(DL15_DEL), .DL_launch(PL15_LAUNCH_DL15),  .launch_PL(DL15_LAUNCH_PL16), .dl_mlt(MULT_DL15)); // .DL_out(ex[]),
+Pulse PL14 (.clk_Pulse(clk), .duration(PL14_DRT),  .PL_start(o), .PL_launch(DL13_LAUNCH_PL14),  .launch_DL(PL14_LAUNCH_DL14), .CHTS(CH14TS), .pl_mlt(MULT_PL14));// .PL_out(ex_14),
+Delay DL14 (.clk_Delay(clk), .delay(DL14_DEL), .DL_launch(PL14_LAUNCH_DL14),  .launch_PL(DL14_LAUNCH_PL15), .DL_out(ex_14), .dl_mlt(MULT_DL14), .End_Flg (END_FLG14)); // 
 
 
-Pulse PL16 (.clk_Pulse(clk), .duration(PL16_DRT), .PL_out(ex_16), .PL_start(o), .PL_launch(DL15_LAUNCH_PL16),  .launch_DL(PL16_LAUNCH_DL16), .CHTS(CH16TS), .pl_mlt(MULT_PL16));
-Delay DL16 (.clk_Delay(clk), .delay(DL16_DEL), .DL_launch(PL16_LAUNCH_DL16),  .launch_PL(DL16_LAUNCH_PL17), .dl_mlt(MULT_DL16), .End_Flg (DIN)); // .DL_out(ex[]),
+Pulse PL15 (.clk_Pulse(clk), .duration(PL15_DRT),  .PL_start(o), .PL_launch(DL14_LAUNCH_PL15),  .launch_DL(PL15_LAUNCH_DL15), .CHTS(CH15TS), .pl_mlt(MULT_PL15));// .PL_out(ex_15),
+Delay DL15 (.clk_Delay(clk), .delay(DL15_DEL), .DL_launch(PL15_LAUNCH_DL15), .launch_PL(DL15_LAUNCH_PL16), .DL_out(ex_15), .dl_mlt(MULT_DL15), .End_Flg (END_FLG15)); // 
 
 
-DLST ST1(.clk_dlst(clk), .din(DIN), .dout(END_FLG));
+Pulse PL16 (.clk_Pulse(clk), .duration(PL16_DRT), .PL_start(o), .PL_launch(DL15_LAUNCH_PL16),  .launch_DL(PL16_LAUNCH_DL16), .CHTS(CH16TS), .pl_mlt(MULT_PL16));// .PL_out(ex_16), 
+Delay DL16 (.clk_Delay(clk), .delay(DL16_DEL), .DL_launch(PL16_LAUNCH_DL16),  .launch_PL(DL16_LAUNCH_PL17), .dl_mlt(MULT_DL16), .DL_out(ex_16), .End_Flg (END_FLG16)); //  
+
+
+
+
+
+
+//DLST ST1(.clk_dlst(clk), .din(DIN), .dout(END_FLG));
 
 
 

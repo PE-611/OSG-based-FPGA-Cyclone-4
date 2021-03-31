@@ -12,7 +12,7 @@ module UART_Rx (input clk_Rx, Rx_in,
 					 output reg wr,				// Readiness byte to write on memory
 					 output reg [7:0] wr_addr,
 					 output reg re
-					 //output reg PC_start
+					 //output reg PC_start 
 					 
 
 					 );

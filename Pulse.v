@@ -13,7 +13,7 @@ module Pulse (input clk_Pulse, PL_start, PL_launch,
 				  output reg PL_out, launch_DL
 				 );
 				
-reg [36:0] cnt1;
+reg [20:0] cnt1;
 reg [20:0] cnt2;
 initial cnt1 <= 1'b0;
 initial cnt2 <= 1'b0;

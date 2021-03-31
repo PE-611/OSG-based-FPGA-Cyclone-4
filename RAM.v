@@ -122,7 +122,6 @@ reg [7:0] DATA [112:0];
 initial pc_start <= 1'b0;
 
 
-
 always @(posedge clk_RAM) begin
 	
 	if(write == 1'b1) begin											//write if == 1'b0 else prohibition on write

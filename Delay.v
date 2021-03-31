@@ -13,7 +13,7 @@ module Delay (input clk_Delay, DL_launch,
 				  output reg DL_out, launch_PL, End_Flg 
 				 );
 				
-reg [34:0] cnt1;
+reg [20:0] cnt1;
 reg [20:0] cnt2;
 initial cnt1 <= 1'b0;
 initial cnt2 <= 1'b0;
@@ -25,7 +25,9 @@ initial End_Flg <= 1'b0;
 
 always @(posedge clk_Delay) begin
 
-
+if (DL_launch == 1'b0) begin
+	End_Flg <= 1'b0;
+end
 
 
 if (dl_mlt == 4'd1) begin		
@@ -40,10 +42,6 @@ if (dl_mlt == 4'd1) begin
 			launch_PL <= 1'b1;
 			End_Flg <= 1'b1;
 		end	
-		
-		if (End_Flg == 1'b1) begin
-			End_Flg <= 1'b0;
-		end
 		
 		if (DL_launch == 1'b0) begin
 			cnt1 <= 1'b0;
@@ -69,11 +67,8 @@ else if (dl_mlt == 4'd2) begin
 			DL_out <= 1'b0;
 			launch_PL <= 1'b1;
 			End_Flg <= 1'b1;
+			cnt2 <= 101;
 		end	
-		
-		if (End_Flg == 1'b1) begin
-			End_Flg <= 1'b0;
-		end
 		
 		if (DL_launch == 1'b0) begin
 			cnt1 <= 1'b0;
@@ -99,11 +94,8 @@ else begin
 			DL_out <= 1'b0;
 			launch_PL <= 1'b1;
 			End_Flg <= 1'b1;
+			cnt2 <= 100001;
 		end	
-		
-		if (End_Flg == 1'b1) begin
-			End_Flg <= 1'b0;
-		end
 		
 		if (DL_launch == 1'b0) begin
 			cnt1 <= 1'b0;
